@@ -1,5 +1,6 @@
 .cursor {
-    animation: blink 0.5s infinite alternate;
+    background: #ccc;
+    color: #222 animation: blink 0.5s infinite alternate;
 }
 
 @keyframes blink {
