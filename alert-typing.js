@@ -39,7 +39,8 @@ async function typing(message_ary = []) {
     let delay = 100 //1文字が表示される時間
     let duration = $("#alert-text-wrap").attr("data-duration");
     console.log(duration);
-    if (duration.match(/^\d*$/))
+
+    if (typeof duration !== "undefined" && duration.match(/^\d*$/))
         delay = duration;
 
     while (true) {
