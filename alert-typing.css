@@ -1,4 +1,6 @@
 .cursor {
+    border-right: 0.1em solid black;
+    padding-right: 0.3em;
     background: #ccc;
     color: #222;
     animation: blink 0.5s infinite alternate;
