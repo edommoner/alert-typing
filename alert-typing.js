@@ -2,15 +2,16 @@ $(function() {
 
     let variable_order_array = [];
     $.each($("#alert-message > span"), function(index, elm) {
-        let token = elm.attr("data-token");
-        let tmp_ary = [];
-        let style = elm.attr("style");
 
-        $.each(elm.find(".animated-letter"), function(i, anime_elm) {
-            tmp_ary.push($('<div>').append(anime_elm.attr("style", style)).html());
+        let token = $(elm).attr("data-token");
+        let tmp_ary = [];
+        let style = $(elm).attr("style");
+
+        $.each($(elm).find(".animated-letter"), function(i, anime_elm) {
+            tmp_ary.push($('<div>').append($(anime_elm).attr("style", style)).html());
         });
         variable_order_array[token] = tmp_ary;
-        elm.empty().append("@@##" + token + "##@@");
+        $("#alert-message > span[data-token=" + token + "]").empty().append("@@##" + token + "##@@");
     });
 
     let message_text = $("#alert-message").text();
