@@ -51,7 +51,7 @@ async function typing(message_ary = []) {
         }
 
         if (count < message_ary.length) {
-            let tmp = "<span class='cursor'>" + message_ary[count] + "</span>";
+            let tmp = "<span class='cursor glitch'>" + message_ary[count] + "</span>";
             $("#alert-message").html(buf + tmp); //1文字だけ追加していく
             count++;
         } else {
