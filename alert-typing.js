@@ -39,7 +39,7 @@ async function typing(message_ary = []) {
     let delay = 100 //1文字が表示される時間
     let duration = $("#alert-text-wrap").attr("data-duration");
     console.log(duration);
-
+    let data_text = "";
     if (typeof duration !== "undefined" && duration.match(/^\d*$/))
         delay = duration;
 
@@ -59,6 +59,9 @@ async function typing(message_ary = []) {
             $("#alert-message").html(buf); //1文字だけ追加していく
             break;
         }
+        data_text = $("#alert-message").text();
+        $("#alert-message").attr("data-text", data_text);
+
         await sleep(delay);
     }
 }
