@@ -16,6 +16,6 @@ $(function() {
             )
         );
 
-    $("#alert-message").css({ "font-size": "30px", "font-weight": "" });
-    $("#alert-user-message").css({ "font-size": "30px", "font-weight": "" });
+    $("#alert-message").css({ "font-size": "", "font-weight": "" });
+    $("#alert-user-message").css({ "font-size": "", "font-weight": "" });
 });
