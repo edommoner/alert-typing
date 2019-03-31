@@ -1,6 +1,6 @@
 $(function() {
 
-    $("#wrap")
+    $("#alert-text-wrap")
         .append($("<div id='decoration-wrap'/>")
             .append(
                 $("<div id='decoration-box'/>")
@@ -16,6 +16,6 @@ $(function() {
             )
         );
 
-    $("#alert-message").css({ "font-size": "", "font-weight": "" });
-    $("#alert-user-message").css({ "font-size": "", "font-weight": "" });
+    $("#alert-message").css({ "font-size": "30px", "font-weight": "" });
+    $("#alert-user-message").css({ "font-size": "30px", "font-weight": "" });
 });
