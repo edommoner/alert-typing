@@ -1,5 +1,5 @@
 $(function() {
-
+    let glitch_flag = true;
     let variable_order_array = [];
     $.each($("#alert-message > span"), function(index, elm) {
 
@@ -8,7 +8,11 @@ $(function() {
         let style = $(elm).attr("style");
 
         $.each($(elm).find(".animated-letter"), function(i, anime_elm) {
-            tmp_ary.push($('<div>').append($(anime_elm).attr("style", style)).html());
+            if (glitch_flag) {
+                tmp_ary.push($('<div>').append($(anime_elm).addClass("glitch").attr("data-text", $(anime_elm).text())).html());
+            } else {
+                tmp_ary.push($('<div>').append($(anime_elm).attr("style", style)).html());
+            }
         });
         variable_order_array[token] = tmp_ary;
         $("#alert-message > span[data-token=" + token + "]").empty().append("@@##" + token + "##@@");
@@ -25,11 +29,16 @@ $(function() {
             message_ary = message_ary.concat(variable_order_array[token]);
 
         } else {
-            message_ary = message_ary.concat(val.split(""));
+            if (glitch_flag) {
+                $.each(val.split(""), function(i, char) {
+                    message_ary.push("<span class='glitch' data-text='" + char + "'>" + char + "</span>");
+                });
+            } else {
+                message_ary = message_ary.concat(val.split(""));
+            }
+
         }
     });
-
-    $("#alert-message").empty().addClass("glitch");
     typing(message_ary);
 });
 
@@ -59,9 +68,6 @@ async function typing(message_ary = []) {
             $("#alert-message").html(buf); //1文字だけ追加していく
             break;
         }
-        data_text = $("#alert-message").text();
-        $("#alert-message").attr("data-text", data_text);
-
         await sleep(delay);
     }
 }
