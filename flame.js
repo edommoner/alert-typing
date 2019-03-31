@@ -15,4 +15,7 @@ $(function() {
                 .append($("<div id='decoration-ring4' class='decoration-ring2'/>"))
             )
         );
+
+    $("#alert-message").css({ "font-size": "", "font-weight": "" });
+    $("#alert-user-message").css({ "font-size": "", "font-weight": "" });
 });
