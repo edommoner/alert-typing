@@ -1,5 +1,17 @@
 $(function() {
-    let glitch_flag = true;
+    let effect = $("#alert-text-wrap").attr("data-effect");
+
+    let glitch_flag = false;
+
+    switch (effect) {
+        case "glitch":
+            glitch_flag = true;
+            break;
+
+        default:
+            break;
+    }
+
     let variable_order_array = [];
     $.each($("#alert-message > span"), function(index, elm) {
 

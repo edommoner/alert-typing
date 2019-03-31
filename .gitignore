@@ -2,3 +2,5 @@ alert-typing.scss
 compass/
 _compass.scss
 _lemonade.scss
+flame.scss
+.csscomb.json
