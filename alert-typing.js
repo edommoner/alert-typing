@@ -54,11 +54,11 @@ $(function() {
 
         }
     });
-    typing(message_ary);
+    typing(message_ary, glitch_flag2);
 });
 
 
-async function typing(message_ary = []) {
+async function typing(message_ary = [], glitch_flag2 = false) {
     let count = 0;
     let delay = 100 //1文字が表示される時間
     let duration = $("#alert-text-wrap").attr("data-duration");
