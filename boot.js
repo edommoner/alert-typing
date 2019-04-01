@@ -20,7 +20,7 @@ $(function() {
     }
 
     switch (data_flame) {
-        case "flame":
+        case "flame1":
             flame1_flag = true;
             break;
         default:
@@ -28,7 +28,7 @@ $(function() {
     }
 
     if (flame1_flag)
-        flame();
+        make_flame_tags();
 
     $("#_decoration-wrap").attr("id", "").attr("id", "decoration-wrap").removeClass("_decoration-wrap").addClass("decoration-wrap");
     $("#_decoration-box").attr("id", "").attr("id", "decoration-box");
