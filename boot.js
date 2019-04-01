@@ -28,7 +28,7 @@ $(function() {
     }
 
     if (flame1_flag)
-        make_flame_tags();
+        $().make_flame_tags();
 
     $("#_decoration-wrap").attr("id", "").attr("id", "decoration-wrap").removeClass("_decoration-wrap").addClass("decoration-wrap");
     $("#_decoration-box").attr("id", "").attr("id", "decoration-box");
@@ -42,5 +42,5 @@ $(function() {
     $("#_decoration-ring3").attr("id", "").attr("id", "decoration-ring3").removeClass("_decoration-ring2").addClass("decoration-ring2");
 
 
-    alert_typing();
+    $().alert_typing();
 });
