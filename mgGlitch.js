@@ -28,6 +28,9 @@
             glitch2TimeMax: 115,
             glitch1Range: 16,
             glitch2Range: 40,
+            minRandomHeight1: 10,
+            // maxRandomHeight1: 1900,
+            // maxRandomHeight2: 1300,
             zIndexStart: 5
 
         };
@@ -75,6 +78,14 @@
 
             var glitch1Range = this.settings.glitch1Range;
             var glitch2Range = this.settings.glitch2Range;
+
+            // let minRandomHeight1 = this.settings.minRandomHeight1;
+            // let maxRandomHeight1 = this.settings.maxRandomHeight1;
+            // let maxRandomHeight2 = this.settings.maxRandomHeight2;
+
+            let minRandomHeight1 = this.settings.minRandomHeight1;
+            let maxRandomHeight1 = $(el).height();
+            let maxRandomHeight2 = $(el).height() - ($(el).height() * 0.2);
 
             // zIndex value for first layer
             var zIndexStart = this.settings.zIndexStart;
@@ -126,9 +137,9 @@
             // first glitched element with lower timing and no scale : apply to front-1
             function glitch1() {
 
-                var clipPos1 = getRandomInt(10, 1900);
+                var clipPos1 = getRandomInt(minRandomHeight1, maxRandomHeight1);
                 var clipPos2 = 9999;
-                var clipPos3 = getRandomInt(10, 1300);
+                var clipPos3 = getRandomInt(minRandomHeight1, maxRandomHeight2);
                 var clipPos4 = 0;
                 var leftValue = getRandomInt(glitch1Range * -1, glitch1Range);
                 var rightValue = getRandomInt(glitch1Range * -1, glitch1Range);
@@ -149,9 +160,9 @@
             // second glitched element with higher timing + scale options : apply to front-2
             function glitch2() {
 
-                var clipPos1 = getRandomInt(10, 1900);
+                var clipPos1 = getRandomInt(minRandomHeight1, maxRandomHeight1);
                 var clipPos2 = 9999;
-                var clipPos3 = getRandomInt(10, 1300);
+                var clipPos3 = getRandomInt(minRandomHeight1, maxRandomHeight2);
                 var clipPos4 = 0;
                 var leftValue = getRandomInt(-1 * glitch2Range, glitch2Range);
                 var rightValue = getRandomInt(-1 * glitch2Range, glitch2Range);
@@ -167,7 +178,7 @@
                 };
 
                 // select front-2 selector : random clip, right, left and scale values
-                $(el).next().css({
+                $(el).next(".front-2").css({
                     'clip': 'rect(' + clipPos1 + 'px, ' + clipPos2 + 'px, ' + clipPos3 + 'px,' + clipPos4 + 'px)',
                     'left': leftValue,
                     "top": 0,
@@ -184,9 +195,9 @@
             // third glitched element with higher timing + scale options + blend-mode : apply to front-3
             function blendElem() {
 
-                var clipPos1 = getRandomInt(10, 1900);
+                var clipPos1 = getRandomInt(minRandomHeight1, maxRandomHeight1);
                 var clipPos2 = 9999;
-                var clipPos3 = getRandomInt(10, 1300);
+                var clipPos3 = getRandomInt(minRandomHeight1, maxRandomHeight2);
                 var clipPos4 = 0;
                 var leftValue = getRandomInt(-1 * glitch2Range, glitch2Range);
                 var rightValue = getRandomInt(-1 * glitch2Range, glitch2Range);
@@ -202,7 +213,7 @@
                 };
 
                 // select front-3 selector : random clip, right, left and scale values
-                $(el).next().next().css({
+                $(el).next(".front-2").next(".front-3").css({
                     'clip': 'rect(' + clipPos1 + 'px, ' + clipPos2 + 'px, ' + clipPos3 + 'px,' + clipPos4 + 'px)',
                     'left': leftValue,
                     "top": 0,
