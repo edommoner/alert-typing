@@ -1,6 +1,6 @@
 $(function() {
-    let effect = $("#alert-text-wrap").attr("data-effect");
-    let flame = $("#alert-text-wrap").attr("data-flame");
+    let data_effect = $("#alert-text-wrap").attr("data-effect");
+    let data_flame = $("#alert-text-wrap").attr("data-flame");
 
     let glitch1_flag = false;
     let glitch2_flag = false;
@@ -8,7 +8,7 @@ $(function() {
     let flame1_flag = false;
     let flame2_flag = false;
 
-    switch (effect) {
+    switch (data_effect) {
         case "glitch":
             glitch1_flag = true;
             break;
@@ -19,7 +19,7 @@ $(function() {
             break;
     }
 
-    switch (flame) {
+    switch (data_flame) {
         case "flame":
             flame1_flag = true;
             break;
