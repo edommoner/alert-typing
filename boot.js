@@ -75,18 +75,18 @@ function loadScript(src, callback) {
     script.src = src;
     head.appendChild(script);
     // Attach handlers for all browsers
-    script.onload = script.onreadystatechange = function() {
-        if (!done && (!this.readyState ||
-                this.readyState === "loaded" || this.readyState === "complete")) {
-            done = true;
-            callback();
-            // Handle memory leak in IE
-            script.onload = script.onreadystatechange = null;
-            if (head && script.parentNode) {
-                head.removeChild(script);
-            }
-        }
-    };
+    // script.onload = script.onreadystatechange = function() {
+    //     if (!done && (!this.readyState ||
+    //             this.readyState === "loaded" || this.readyState === "complete")) {
+    //         done = true;
+    //         callback();
+    //         // Handle memory leak in IE
+    //         script.onload = script.onreadystatechange = null;
+    //         if (head && script.parentNode) {
+    //             head.removeChild(script);
+    //         }
+    //     }
+    // };
 }
 
 function loadCss(src, callback) {
@@ -97,16 +97,16 @@ function loadCss(src, callback) {
     head.appendChild(link);
     link.href = src;
     // Attach handlers for all browsers
-    link.onload = link.onreadystatechange = function() {
-        if (!done && (!this.readyState ||
-                this.readyState === "loaded" || this.readyState === "complete")) {
-            done = true;
-            callback();
-            // Handle memory leak in IE
-            link.onload = link.onreadystatechange = null;
-            if (head && link.parentNode) {
-                head.removeChild(link);
-            }
-        }
-    };
+    // link.onload = link.onreadystatechange = function() {
+    //     if (!done && (!this.readyState ||
+    //             this.readyState === "loaded" || this.readyState === "complete")) {
+    //         done = true;
+    //         callback();
+    //         // Handle memory leak in IE
+    //         link.onload = link.onreadystatechange = null;
+    //         if (head && link.parentNode) {
+    //             head.removeChild(link);
+    //         }
+    //     }
+    // };
 }
