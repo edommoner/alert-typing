@@ -1,4 +1,4 @@
-$(function() {
+$(window).on("load", function() {
     let data_effect = $("#alert-text-wrap").attr("data-effect");
     let data_flame = $("#alert-text-wrap").attr("data-flame");
 
