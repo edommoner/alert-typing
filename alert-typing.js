@@ -66,7 +66,9 @@ async function typing(message_ary = [], glitch_flag2 = false) {
     let data_text = "";
     if (typeof duration !== "undefined" && duration.match(/^\d*$/))
         delay = duration;
+    $("#alert-message").empty();
 
+    await sleep(1000);
     while (true) {
 
         let buf = "";
@@ -135,6 +137,7 @@ function glitch2() {
         glitch2TimeMax: 200,
         glitch1Range: 16,
         glitch2Range: 16,
+        basePos: true,
         zIndexStart: 8
     });
 };

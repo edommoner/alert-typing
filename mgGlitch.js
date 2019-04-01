@@ -29,6 +29,7 @@
             glitch1Range: 16,
             glitch2Range: 40,
             minRandomHeight1: 10,
+            basePos: false,
             // maxRandomHeight1: 1900,
             // maxRandomHeight2: 1300,
             zIndexStart: 5
@@ -87,6 +88,11 @@
             let maxRandomHeight1 = $(el).height();
             let maxRandomHeight2 = $(el).height() - ($(el).height() * 0.2);
 
+            let basePos;
+            if (this.settings.basePos)
+                basePos = $(el).position();
+            else
+                basePos = { left: 0 };
             // zIndex value for first layer
             var zIndexStart = this.settings.zIndexStart;
 
@@ -141,8 +147,8 @@
                 var clipPos2 = 9999;
                 var clipPos3 = getRandomInt(minRandomHeight1, maxRandomHeight2);
                 var clipPos4 = 0;
-                var leftValue = getRandomInt(glitch1Range * -1, glitch1Range);
-                var rightValue = getRandomInt(glitch1Range * -1, glitch1Range);
+                var leftValue = basePos.left + getRandomInt(glitch1Range * -1, glitch1Range);
+                var rightValue = basePos.left + getRandomInt(glitch1Range * -1, glitch1Range);
                 var randomTime = getRandomInt(glitch1TimeMin, glitch1TimeMax);
 
                 // select front-1 selector : random clip, right and left values
@@ -164,8 +170,8 @@
                 var clipPos2 = 9999;
                 var clipPos3 = getRandomInt(minRandomHeight1, maxRandomHeight2);
                 var clipPos4 = 0;
-                var leftValue = getRandomInt(-1 * glitch2Range, glitch2Range);
-                var rightValue = getRandomInt(-1 * glitch2Range, glitch2Range);
+                var leftValue = basePos.left + getRandomInt(-1 * glitch2Range, glitch2Range);
+                var rightValue = basePos.left + getRandomInt(-1 * glitch2Range, glitch2Range);
                 var randomTime = getRandomInt(glitch2TimeMin, glitch2TimeMax);
 
                 // check if scale option is active = true or not = false
@@ -199,8 +205,8 @@
                 var clipPos2 = 9999;
                 var clipPos3 = getRandomInt(minRandomHeight1, maxRandomHeight2);
                 var clipPos4 = 0;
-                var leftValue = getRandomInt(-1 * glitch2Range, glitch2Range);
-                var rightValue = getRandomInt(-1 * glitch2Range, glitch2Range);
+                var leftValue = basePos.left + getRandomInt(-1 * glitch2Range, glitch2Range);
+                var rightValue = basePos.left + getRandomInt(-1 * glitch2Range, glitch2Range);
                 var randomTime = getRandomInt(glitch2TimeMin, glitch2TimeMax);
 
                 // check if scale option is active = true or not = false
