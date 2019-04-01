@@ -22,7 +22,7 @@ $(function() {
     $("#alert-user-message").css({ "font-size": "", "font-weight": "" });
     $("#decoration-text-area").append($("#alert-text"));
 
-    $("#decoration-wrap").mgGlitch({
+    $(".decoration-wrap").mgGlitch({
         // set 'true' to stop the plugin
         destroy: false,
         // set 'false' to stop glitching

@@ -1,4 +1,4 @@
-#decoration-wrap {
+.decoration-wrap {
   position: fixed;
   height: 800px;
   width: 800px;
@@ -620,391 +620,391 @@
 
 @keyframes decoration-ring-noise {
   0% {
-    transform: rotate(42deg);
-    clip: rect(96px, 9999px, 383px, 0);
+    transform: rotate(11deg);
+    clip: rect(72px, 9999px, 161px, 0);
   }
   5% {
-    transform: rotate(65deg);
-    clip: rect(51px, 9999px, 312px, 0);
+    transform: rotate(55deg);
+    clip: rect(76px, 9999px, 231px, 0);
   }
   10% {
-    transform: rotate(26deg);
-    clip: rect(12px, 9999px, 60px, 0);
+    transform: rotate(17deg);
+    clip: rect(68px, 9999px, 109px, 0);
   }
   15% {
-    transform: rotate(32deg);
-    clip: rect(54px, 9999px, 199px, 0);
+    transform: rotate(127deg);
+    clip: rect(66px, 9999px, 334px, 0);
   }
   20% {
-    transform: rotate(93deg);
-    clip: rect(95px, 9999px, 207px, 0);
+    transform: rotate(147deg);
+    clip: rect(65px, 9999px, 399px, 0);
   }
   25% {
-    transform: rotate(112deg);
-    clip: rect(44px, 9999px, 92px, 0);
+    transform: rotate(159deg);
+    clip: rect(47px, 9999px, 266px, 0);
   }
   30% {
-    transform: rotate(100deg);
-    clip: rect(41px, 9999px, 144px, 0);
+    transform: rotate(133deg);
+    clip: rect(33px, 9999px, 237px, 0);
   }
   35% {
-    transform: rotate(10deg);
-    clip: rect(4px, 9999px, 243px, 0);
+    transform: rotate(52deg);
+    clip: rect(65px, 9999px, 199px, 0);
   }
   40% {
-    transform: rotate(92deg);
-    clip: rect(72px, 9999px, 340px, 0);
+    transform: rotate(11deg);
+    clip: rect(23px, 9999px, 28px, 0);
   }
   45% {
-    transform: rotate(47deg);
-    clip: rect(5px, 9999px, 382px, 0);
+    transform: rotate(43deg);
+    clip: rect(74px, 9999px, 188px, 0);
   }
   50% {
-    transform: rotate(168deg);
-    clip: rect(94px, 9999px, 213px, 0);
+    transform: rotate(176deg);
+    clip: rect(92px, 9999px, 61px, 0);
   }
   55% {
-    transform: rotate(112deg);
-    clip: rect(50px, 9999px, 54px, 0);
+    transform: rotate(49deg);
+    clip: rect(75px, 9999px, 295px, 0);
   }
   60% {
-    transform: rotate(146deg);
-    clip: rect(2px, 9999px, 12px, 0);
+    transform: rotate(133deg);
+    clip: rect(52px, 9999px, 334px, 0);
   }
   65% {
-    transform: rotate(171deg);
-    clip: rect(96px, 9999px, 328px, 0);
+    transform: rotate(78deg);
+    clip: rect(94px, 9999px, 141px, 0);
   }
   70% {
-    transform: rotate(146deg);
-    clip: rect(4px, 9999px, 373px, 0);
+    transform: rotate(106deg);
+    clip: rect(70px, 9999px, 342px, 0);
   }
   75% {
-    transform: rotate(101deg);
-    clip: rect(79px, 9999px, 62px, 0);
+    transform: rotate(55deg);
+    clip: rect(1px, 9999px, 293px, 0);
   }
   80% {
-    transform: rotate(138deg);
-    clip: rect(82px, 9999px, 283px, 0);
+    transform: rotate(115deg);
+    clip: rect(67px, 9999px, 227px, 0);
   }
   85% {
-    transform: rotate(135deg);
-    clip: rect(94px, 9999px, 215px, 0);
+    transform: rotate(22deg);
+    clip: rect(65px, 9999px, 129px, 0);
   }
   90% {
-    transform: rotate(101deg);
-    clip: rect(69px, 9999px, 280px, 0);
+    transform: rotate(123deg);
+    clip: rect(53px, 9999px, 110px, 0);
   }
   95% {
-    transform: rotate(60deg);
-    clip: rect(14px, 9999px, 289px, 0);
+    transform: rotate(174deg);
+    clip: rect(14px, 9999px, 44px, 0);
   }
   100% {
-    transform: rotate(66deg);
-    clip: rect(20px, 9999px, 388px, 0);
+    transform: rotate(144deg);
+    clip: rect(76px, 9999px, 52px, 0);
   }
 }
 
 @keyframes decoration-ring-noise-2 {
   0% {
-    transform: rotate(111deg);
-    clip: rect(36px, 9999px, 295px, 0);
+    transform: rotate(106deg);
+    clip: rect(43px, 9999px, 74px, 0);
   }
   5% {
-    transform: rotate(78deg);
-    clip: rect(23px, 9999px, 240px, 0);
+    transform: rotate(84deg);
+    clip: rect(18px, 9999px, 29px, 0);
   }
   10% {
-    transform: rotate(91deg);
-    clip: rect(5px, 9999px, 148px, 0);
+    transform: rotate(30deg);
+    clip: rect(35px, 9999px, 129px, 0);
   }
   15% {
-    transform: rotate(142deg);
-    clip: rect(55px, 9999px, 288px, 0);
+    transform: rotate(57deg);
+    clip: rect(93px, 9999px, 211px, 0);
   }
   20% {
-    transform: rotate(22deg);
-    clip: rect(42px, 9999px, 211px, 0);
+    transform: rotate(68deg);
+    clip: rect(9px, 9999px, 30px, 0);
   }
   25% {
-    transform: rotate(69deg);
-    clip: rect(76px, 9999px, 365px, 0);
+    transform: rotate(39deg);
+    clip: rect(92px, 9999px, 314px, 0);
   }
   30% {
     transform: rotate(53deg);
-    clip: rect(32px, 9999px, 241px, 0);
+    clip: rect(18px, 9999px, 9px, 0);
   }
   35% {
-    transform: rotate(71deg);
-    clip: rect(35px, 9999px, 76px, 0);
+    transform: rotate(34deg);
+    clip: rect(36px, 9999px, 129px, 0);
   }
   40% {
-    transform: rotate(21deg);
-    clip: rect(8px, 9999px, 274px, 0);
+    transform: rotate(46deg);
+    clip: rect(11px, 9999px, 299px, 0);
   }
   45% {
-    transform: rotate(142deg);
-    clip: rect(80px, 9999px, 213px, 0);
+    transform: rotate(93deg);
+    clip: rect(100px, 9999px, 161px, 0);
   }
   50% {
-    transform: rotate(133deg);
-    clip: rect(76px, 9999px, 196px, 0);
+    transform: rotate(70deg);
+    clip: rect(57px, 9999px, 19px, 0);
   }
   55% {
-    transform: rotate(36deg);
-    clip: rect(39px, 9999px, 228px, 0);
+    transform: rotate(116deg);
+    clip: rect(3px, 9999px, 230px, 0);
   }
   60% {
-    transform: rotate(130deg);
-    clip: rect(78px, 9999px, 329px, 0);
+    transform: rotate(72deg);
+    clip: rect(18px, 9999px, 122px, 0);
   }
   65% {
-    transform: rotate(94deg);
-    clip: rect(46px, 9999px, 2px, 0);
+    transform: rotate(102deg);
+    clip: rect(13px, 9999px, 220px, 0);
   }
   70% {
-    transform: rotate(114deg);
-    clip: rect(13px, 9999px, 195px, 0);
+    transform: rotate(125deg);
+    clip: rect(21px, 9999px, 242px, 0);
   }
   75% {
-    transform: rotate(20deg);
-    clip: rect(5px, 9999px, 363px, 0);
+    transform: rotate(104deg);
+    clip: rect(61px, 9999px, 378px, 0);
   }
   80% {
-    transform: rotate(54deg);
-    clip: rect(92px, 9999px, 154px, 0);
+    transform: rotate(33deg);
+    clip: rect(4px, 9999px, 50px, 0);
   }
   85% {
-    transform: rotate(1deg);
-    clip: rect(23px, 9999px, 101px, 0);
+    transform: rotate(69deg);
+    clip: rect(65px, 9999px, 258px, 0);
   }
   90% {
-    transform: rotate(137deg);
-    clip: rect(22px, 9999px, 95px, 0);
+    transform: rotate(38deg);
+    clip: rect(7px, 9999px, 24px, 0);
   }
   95% {
-    transform: rotate(55deg);
-    clip: rect(9px, 9999px, 257px, 0);
+    transform: rotate(133deg);
+    clip: rect(49px, 9999px, 321px, 0);
   }
   100% {
-    transform: rotate(36deg);
-    clip: rect(40px, 9999px, 312px, 0);
+    transform: rotate(51deg);
+    clip: rect(51px, 9999px, 183px, 0);
   }
 }
 
 @keyframes decoration-ring-partial {
   0% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 69%, #0096ff 69%, #0096ff 71%, rgba(0, 150, 255, 0) 71%, rgba(0, 150, 255, 0) 90%, #0096ff 90%, #0096ff 91%, rgba(0, 150, 255, 0) 91%, rgba(0, 150, 255, 0) 94%, #0096ff 94%, #0096ff 96%, rgba(0, 150, 255, 0) 96%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 27%, #0096ff 27%, #0096ff 28%, rgba(0, 150, 255, 0) 28%, rgba(0, 150, 255, 0) 63%, #0096ff 63%, #0096ff 64%, rgba(0, 150, 255, 0) 64%, rgba(0, 150, 255, 0) 72%, #0096ff 72%, #0096ff 75%, rgba(0, 150, 255, 0) 75%);
   }
   1.42857% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 21%, #0096ff 21%, #0096ff 22%, rgba(0, 150, 255, 0) 22%, rgba(0, 150, 255, 0) 25%, #0096ff 25%, #0096ff 27%, rgba(0, 150, 255, 0) 27%, rgba(0, 150, 255, 0) 65%, #0096ff 65%, #0096ff 66%, rgba(0, 150, 255, 0) 66%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 85%, #0096ff 85%, #0096ff 86%, rgba(0, 150, 255, 0) 86%, rgba(0, 150, 255, 0) 129%, #0096ff 129%, #0096ff 131%, rgba(0, 150, 255, 0) 131%, rgba(0, 150, 255, 0) 139%, #0096ff 139%, #0096ff 142%, rgba(0, 150, 255, 0) 142%);
   }
   2.85714% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 97%, #0096ff 97%, #0096ff 99%, rgba(0, 150, 255, 0) 99%, rgba(0, 150, 255, 0) 121%, #0096ff 121%, #0096ff 122%, rgba(0, 150, 255, 0) 122%, rgba(0, 150, 255, 0) 163%, #0096ff 163%, #0096ff 165%, rgba(0, 150, 255, 0) 165%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 44%, #0096ff 44%, #0096ff 45%, rgba(0, 150, 255, 0) 45%, rgba(0, 150, 255, 0) 57%, #0096ff 57%, #0096ff 58%, rgba(0, 150, 255, 0) 58%, rgba(0, 150, 255, 0) 81%, #0096ff 81%, #0096ff 84%, rgba(0, 150, 255, 0) 84%);
   }
   4.28571% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 17%, #0096ff 17%, #0096ff 18%, rgba(0, 150, 255, 0) 18%, rgba(0, 150, 255, 0) 54%, #0096ff 54%, #0096ff 55%, rgba(0, 150, 255, 0) 55%, rgba(0, 150, 255, 0) 57%, #0096ff 57%, #0096ff 60%, rgba(0, 150, 255, 0) 60%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 17%, #0096ff 17%, #0096ff 19%, rgba(0, 150, 255, 0) 19%, rgba(0, 150, 255, 0) 50%, #0096ff 50%, #0096ff 51%, rgba(0, 150, 255, 0) 51%, rgba(0, 150, 255, 0) 70%, #0096ff 70%, #0096ff 73%, rgba(0, 150, 255, 0) 73%);
   }
   5.71429% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 56%, #0096ff 56%, #0096ff 57%, rgba(0, 150, 255, 0) 57%, rgba(0, 150, 255, 0) 84%, #0096ff 84%, #0096ff 87%, rgba(0, 150, 255, 0) 87%, rgba(0, 150, 255, 0) 108%, #0096ff 108%, #0096ff 111%, rgba(0, 150, 255, 0) 111%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 69%, #0096ff 69%, #0096ff 72%, rgba(0, 150, 255, 0) 72%, rgba(0, 150, 255, 0) 100%, #0096ff 100%, #0096ff 103%, rgba(0, 150, 255, 0) 103%, rgba(0, 150, 255, 0) 126%, #0096ff 126%, #0096ff 129%, rgba(0, 150, 255, 0) 129%);
   }
   7.14286% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 67%, #0096ff 67%, #0096ff 70%, rgba(0, 150, 255, 0) 70%, rgba(0, 150, 255, 0) 100%, #0096ff 100%, #0096ff 103%, rgba(0, 150, 255, 0) 103%, rgba(0, 150, 255, 0) 117%, #0096ff 117%, #0096ff 118%, rgba(0, 150, 255, 0) 118%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 60%, #0096ff 60%, #0096ff 62%, rgba(0, 150, 255, 0) 62%, rgba(0, 150, 255, 0) 110%, #0096ff 110%, #0096ff 112%, rgba(0, 150, 255, 0) 112%, rgba(0, 150, 255, 0) 161%, #0096ff 161%, #0096ff 163%, rgba(0, 150, 255, 0) 163%);
   }
   8.57143% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 79%, #0096ff 79%, #0096ff 81%, rgba(0, 150, 255, 0) 81%, rgba(0, 150, 255, 0) 114%, #0096ff 114%, #0096ff 117%, rgba(0, 150, 255, 0) 117%, rgba(0, 150, 255, 0) 154%, #0096ff 154%, #0096ff 155%, rgba(0, 150, 255, 0) 155%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 66%, #0096ff 66%, #0096ff 67%, rgba(0, 150, 255, 0) 67%, rgba(0, 150, 255, 0) 115%, #0096ff 115%, #0096ff 116%, rgba(0, 150, 255, 0) 116%, rgba(0, 150, 255, 0) 132%, #0096ff 132%, #0096ff 133%, rgba(0, 150, 255, 0) 133%);
   }
   10% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 86%, #0096ff 86%, #0096ff 88%, rgba(0, 150, 255, 0) 88%, rgba(0, 150, 255, 0) 117%, #0096ff 117%, #0096ff 120%, rgba(0, 150, 255, 0) 120%, rgba(0, 150, 255, 0) 170%, #0096ff 170%, #0096ff 172%, rgba(0, 150, 255, 0) 172%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 71%, #0096ff 71%, #0096ff 73%, rgba(0, 150, 255, 0) 73%, rgba(0, 150, 255, 0) 77%, #0096ff 77%, #0096ff 78%, rgba(0, 150, 255, 0) 78%, rgba(0, 150, 255, 0) 116%, #0096ff 116%, #0096ff 117%, rgba(0, 150, 255, 0) 117%);
   }
   11.42857% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 36%, #0096ff 36%, #0096ff 39%, rgba(0, 150, 255, 0) 39%, rgba(0, 150, 255, 0) 82%, #0096ff 82%, #0096ff 83%, rgba(0, 150, 255, 0) 83%, rgba(0, 150, 255, 0) 133%, #0096ff 133%, #0096ff 136%, rgba(0, 150, 255, 0) 136%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 45%, #0096ff 45%, #0096ff 48%, rgba(0, 150, 255, 0) 48%, rgba(0, 150, 255, 0) 97%, #0096ff 97%, #0096ff 99%, rgba(0, 150, 255, 0) 99%, rgba(0, 150, 255, 0) 102%, #0096ff 102%, #0096ff 103%, rgba(0, 150, 255, 0) 103%);
   }
   12.85714% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 21%, #0096ff 21%, #0096ff 23%, rgba(0, 150, 255, 0) 23%, rgba(0, 150, 255, 0) 50%, #0096ff 50%, #0096ff 53%, rgba(0, 150, 255, 0) 53%, rgba(0, 150, 255, 0) 99%, #0096ff 99%, #0096ff 102%, rgba(0, 150, 255, 0) 102%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 29%, #0096ff 29%, #0096ff 32%, rgba(0, 150, 255, 0) 32%, rgba(0, 150, 255, 0) 35%, #0096ff 35%, #0096ff 36%, rgba(0, 150, 255, 0) 36%, rgba(0, 150, 255, 0) 68%, #0096ff 68%, #0096ff 69%, rgba(0, 150, 255, 0) 69%);
   }
   14.28571% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 27%, #0096ff 27%, #0096ff 29%, rgba(0, 150, 255, 0) 29%, rgba(0, 150, 255, 0) 64%, #0096ff 64%, #0096ff 65%, rgba(0, 150, 255, 0) 65%, rgba(0, 150, 255, 0) 107%, #0096ff 107%, #0096ff 110%, rgba(0, 150, 255, 0) 110%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 23%, #0096ff 23%, #0096ff 25%, rgba(0, 150, 255, 0) 25%, rgba(0, 150, 255, 0) 46%, #0096ff 46%, #0096ff 48%, rgba(0, 150, 255, 0) 48%, rgba(0, 150, 255, 0) 91%, #0096ff 91%, #0096ff 94%, rgba(0, 150, 255, 0) 94%);
   }
   15.71429% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 76%, #0096ff 76%, #0096ff 78%, rgba(0, 150, 255, 0) 78%, rgba(0, 150, 255, 0) 99%, #0096ff 99%, #0096ff 101%, rgba(0, 150, 255, 0) 101%, rgba(0, 150, 255, 0) 106%, #0096ff 106%, #0096ff 108%, rgba(0, 150, 255, 0) 108%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 30%, #0096ff 30%, #0096ff 33%, rgba(0, 150, 255, 0) 33%, rgba(0, 150, 255, 0) 60%, #0096ff 60%, #0096ff 62%, rgba(0, 150, 255, 0) 62%, rgba(0, 150, 255, 0) 77%, #0096ff 77%, #0096ff 80%, rgba(0, 150, 255, 0) 80%);
   }
   17.14286% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 29%, #0096ff 29%, #0096ff 30%, rgba(0, 150, 255, 0) 30%, rgba(0, 150, 255, 0) 70%, #0096ff 70%, #0096ff 73%, rgba(0, 150, 255, 0) 73%, rgba(0, 150, 255, 0) 109%, #0096ff 109%, #0096ff 111%, rgba(0, 150, 255, 0) 111%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 34%, #0096ff 34%, #0096ff 37%, rgba(0, 150, 255, 0) 37%, rgba(0, 150, 255, 0) 46%, #0096ff 46%, #0096ff 48%, rgba(0, 150, 255, 0) 48%, rgba(0, 150, 255, 0) 75%, #0096ff 75%, #0096ff 76%, rgba(0, 150, 255, 0) 76%);
   }
   18.57143% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 19%, #0096ff 19%, #0096ff 22%, rgba(0, 150, 255, 0) 22%, rgba(0, 150, 255, 0) 63%, #0096ff 63%, #0096ff 64%, rgba(0, 150, 255, 0) 64%, rgba(0, 150, 255, 0) 74%, #0096ff 74%, #0096ff 75%, rgba(0, 150, 255, 0) 75%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 36%, #0096ff 36%, #0096ff 38%, rgba(0, 150, 255, 0) 38%, rgba(0, 150, 255, 0) 55%, #0096ff 55%, #0096ff 58%, rgba(0, 150, 255, 0) 58%, rgba(0, 150, 255, 0) 94%, #0096ff 94%, #0096ff 95%, rgba(0, 150, 255, 0) 95%);
   }
   20% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 27%, #0096ff 27%, #0096ff 29%, rgba(0, 150, 255, 0) 29%, rgba(0, 150, 255, 0) 52%, #0096ff 52%, #0096ff 55%, rgba(0, 150, 255, 0) 55%, rgba(0, 150, 255, 0) 76%, #0096ff 76%, #0096ff 77%, rgba(0, 150, 255, 0) 77%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 86%, #0096ff 86%, #0096ff 88%, rgba(0, 150, 255, 0) 88%, rgba(0, 150, 255, 0) 108%, #0096ff 108%, #0096ff 110%, rgba(0, 150, 255, 0) 110%, rgba(0, 150, 255, 0) 135%, #0096ff 135%, #0096ff 137%, rgba(0, 150, 255, 0) 137%);
   }
   21.42857% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 41%, #0096ff 41%, #0096ff 42%, rgba(0, 150, 255, 0) 42%, rgba(0, 150, 255, 0) 44%, #0096ff 44%, #0096ff 46%, rgba(0, 150, 255, 0) 46%, rgba(0, 150, 255, 0) 96%, #0096ff 96%, #0096ff 97%, rgba(0, 150, 255, 0) 97%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 44%, #0096ff 44%, #0096ff 45%, rgba(0, 150, 255, 0) 45%, rgba(0, 150, 255, 0) 66%, #0096ff 66%, #0096ff 69%, rgba(0, 150, 255, 0) 69%, rgba(0, 150, 255, 0) 98%, #0096ff 98%, #0096ff 99%, rgba(0, 150, 255, 0) 99%);
   }
   22.85714% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 21%, #0096ff 21%, #0096ff 24%, rgba(0, 150, 255, 0) 24%, rgba(0, 150, 255, 0) 42%, #0096ff 42%, #0096ff 43%, rgba(0, 150, 255, 0) 43%, rgba(0, 150, 255, 0) 77%, #0096ff 77%, #0096ff 79%, rgba(0, 150, 255, 0) 79%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 85%, #0096ff 85%, #0096ff 87%, rgba(0, 150, 255, 0) 87%, rgba(0, 150, 255, 0) 118%, #0096ff 118%, #0096ff 121%, rgba(0, 150, 255, 0) 121%, rgba(0, 150, 255, 0) 125%, #0096ff 125%, #0096ff 127%, rgba(0, 150, 255, 0) 127%);
   }
   24.28571% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 63%, #0096ff 63%, #0096ff 65%, rgba(0, 150, 255, 0) 65%, rgba(0, 150, 255, 0) 90%, #0096ff 90%, #0096ff 92%, rgba(0, 150, 255, 0) 92%, rgba(0, 150, 255, 0) 115%, #0096ff 115%, #0096ff 117%, rgba(0, 150, 255, 0) 117%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 55%, #0096ff 55%, #0096ff 57%, rgba(0, 150, 255, 0) 57%, rgba(0, 150, 255, 0) 60%, #0096ff 60%, #0096ff 63%, rgba(0, 150, 255, 0) 63%, rgba(0, 150, 255, 0) 112%, #0096ff 112%, #0096ff 114%, rgba(0, 150, 255, 0) 114%);
   }
   25.71429% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 38%, #0096ff 38%, #0096ff 39%, rgba(0, 150, 255, 0) 39%, rgba(0, 150, 255, 0) 82%, #0096ff 82%, #0096ff 83%, rgba(0, 150, 255, 0) 83%, rgba(0, 150, 255, 0) 111%, #0096ff 111%, #0096ff 112%, rgba(0, 150, 255, 0) 112%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 7%, #0096ff 7%, #0096ff 8%, rgba(0, 150, 255, 0) 8%, rgba(0, 150, 255, 0) 19%, #0096ff 19%, #0096ff 21%, rgba(0, 150, 255, 0) 21%, rgba(0, 150, 255, 0) 54%, #0096ff 54%, #0096ff 57%, rgba(0, 150, 255, 0) 57%);
   }
   27.14286% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 7%, #0096ff 7%, #0096ff 9%, rgba(0, 150, 255, 0) 9%, rgba(0, 150, 255, 0) 50%, #0096ff 50%, #0096ff 52%, rgba(0, 150, 255, 0) 52%, rgba(0, 150, 255, 0) 62%, #0096ff 62%, #0096ff 63%, rgba(0, 150, 255, 0) 63%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 90%, #0096ff 90%, #0096ff 93%, rgba(0, 150, 255, 0) 93%, rgba(0, 150, 255, 0) 112%, #0096ff 112%, #0096ff 113%, rgba(0, 150, 255, 0) 113%, rgba(0, 150, 255, 0) 145%, #0096ff 145%, #0096ff 148%, rgba(0, 150, 255, 0) 148%);
   }
   28.57143% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 33%, #0096ff 33%, #0096ff 34%, rgba(0, 150, 255, 0) 34%, rgba(0, 150, 255, 0) 52%, #0096ff 52%, #0096ff 55%, rgba(0, 150, 255, 0) 55%, rgba(0, 150, 255, 0) 61%, #0096ff 61%, #0096ff 62%, rgba(0, 150, 255, 0) 62%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 82%, #0096ff 82%, #0096ff 84%, rgba(0, 150, 255, 0) 84%, rgba(0, 150, 255, 0) 123%, #0096ff 123%, #0096ff 124%, rgba(0, 150, 255, 0) 124%, rgba(0, 150, 255, 0) 146%, #0096ff 146%, #0096ff 148%, rgba(0, 150, 255, 0) 148%);
   }
   30% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 27%, #0096ff 27%, #0096ff 30%, rgba(0, 150, 255, 0) 30%, rgba(0, 150, 255, 0) 77%, #0096ff 77%, #0096ff 80%, rgba(0, 150, 255, 0) 80%, rgba(0, 150, 255, 0) 90%, #0096ff 90%, #0096ff 92%, rgba(0, 150, 255, 0) 92%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 10%, #0096ff 10%, #0096ff 11%, rgba(0, 150, 255, 0) 11%, rgba(0, 150, 255, 0) 41%, #0096ff 41%, #0096ff 44%, rgba(0, 150, 255, 0) 44%, rgba(0, 150, 255, 0) 57%, #0096ff 57%, #0096ff 60%, rgba(0, 150, 255, 0) 60%);
   }
   31.42857% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 64%, #0096ff 64%, #0096ff 66%, rgba(0, 150, 255, 0) 66%, rgba(0, 150, 255, 0) 109%, #0096ff 109%, #0096ff 111%, rgba(0, 150, 255, 0) 111%, rgba(0, 150, 255, 0) 127%, #0096ff 127%, #0096ff 130%, rgba(0, 150, 255, 0) 130%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 81%, #0096ff 81%, #0096ff 84%, rgba(0, 150, 255, 0) 84%, rgba(0, 150, 255, 0) 105%, #0096ff 105%, #0096ff 107%, rgba(0, 150, 255, 0) 107%, rgba(0, 150, 255, 0) 141%, #0096ff 141%, #0096ff 143%, rgba(0, 150, 255, 0) 143%);
   }
   32.85714% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 85%, #0096ff 85%, #0096ff 88%, rgba(0, 150, 255, 0) 88%, rgba(0, 150, 255, 0) 101%, #0096ff 101%, #0096ff 102%, rgba(0, 150, 255, 0) 102%, rgba(0, 150, 255, 0) 137%, #0096ff 137%, #0096ff 140%, rgba(0, 150, 255, 0) 140%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 43%, #0096ff 43%, #0096ff 45%, rgba(0, 150, 255, 0) 45%, rgba(0, 150, 255, 0) 83%, #0096ff 83%, #0096ff 85%, rgba(0, 150, 255, 0) 85%, rgba(0, 150, 255, 0) 92%, #0096ff 92%, #0096ff 95%, rgba(0, 150, 255, 0) 95%);
   }
   34.28571% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 37%, #0096ff 37%, #0096ff 38%, rgba(0, 150, 255, 0) 38%, rgba(0, 150, 255, 0) 54%, #0096ff 54%, #0096ff 55%, rgba(0, 150, 255, 0) 55%, rgba(0, 150, 255, 0) 95%, #0096ff 95%, #0096ff 97%, rgba(0, 150, 255, 0) 97%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 82%, #0096ff 82%, #0096ff 84%, rgba(0, 150, 255, 0) 84%, rgba(0, 150, 255, 0) 133%, #0096ff 133%, #0096ff 136%, rgba(0, 150, 255, 0) 136%, rgba(0, 150, 255, 0) 144%, #0096ff 144%, #0096ff 145%, rgba(0, 150, 255, 0) 145%);
   }
   35.71429% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 69%, #0096ff 69%, #0096ff 72%, rgba(0, 150, 255, 0) 72%, rgba(0, 150, 255, 0) 122%, #0096ff 122%, #0096ff 123%, rgba(0, 150, 255, 0) 123%, rgba(0, 150, 255, 0) 172%, #0096ff 172%, #0096ff 173%, rgba(0, 150, 255, 0) 173%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 47%, #0096ff 47%, #0096ff 50%, rgba(0, 150, 255, 0) 50%, rgba(0, 150, 255, 0) 80%, #0096ff 80%, #0096ff 81%, rgba(0, 150, 255, 0) 81%, rgba(0, 150, 255, 0) 112%, #0096ff 112%, #0096ff 113%, rgba(0, 150, 255, 0) 113%);
   }
   37.14286% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 30%, #0096ff 30%, #0096ff 32%, rgba(0, 150, 255, 0) 32%, rgba(0, 150, 255, 0) 52%, #0096ff 52%, #0096ff 54%, rgba(0, 150, 255, 0) 54%, rgba(0, 150, 255, 0) 102%, #0096ff 102%, #0096ff 105%, rgba(0, 150, 255, 0) 105%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 2%, #0096ff 2%, #0096ff 4%, rgba(0, 150, 255, 0) 4%, rgba(0, 150, 255, 0) 41%, #0096ff 41%, #0096ff 43%, rgba(0, 150, 255, 0) 43%, rgba(0, 150, 255, 0) 53%, #0096ff 53%, #0096ff 54%, rgba(0, 150, 255, 0) 54%);
   }
   38.57143% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 82%, #0096ff 82%, #0096ff 83%, rgba(0, 150, 255, 0) 83%, rgba(0, 150, 255, 0) 131%, #0096ff 131%, #0096ff 132%, rgba(0, 150, 255, 0) 132%, rgba(0, 150, 255, 0) 145%, #0096ff 145%, #0096ff 146%, rgba(0, 150, 255, 0) 146%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 35%, #0096ff 35%, #0096ff 37%, rgba(0, 150, 255, 0) 37%, rgba(0, 150, 255, 0) 87%, #0096ff 87%, #0096ff 88%, rgba(0, 150, 255, 0) 88%, rgba(0, 150, 255, 0) 128%, #0096ff 128%, #0096ff 130%, rgba(0, 150, 255, 0) 130%);
   }
   40% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 24%, #0096ff 24%, #0096ff 26%, rgba(0, 150, 255, 0) 26%, rgba(0, 150, 255, 0) 69%, #0096ff 69%, #0096ff 71%, rgba(0, 150, 255, 0) 71%, rgba(0, 150, 255, 0) 96%, #0096ff 96%, #0096ff 98%, rgba(0, 150, 255, 0) 98%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 58%, #0096ff 58%, #0096ff 61%, rgba(0, 150, 255, 0) 61%, rgba(0, 150, 255, 0) 86%, #0096ff 86%, #0096ff 87%, rgba(0, 150, 255, 0) 87%, rgba(0, 150, 255, 0) 121%, #0096ff 121%, #0096ff 122%, rgba(0, 150, 255, 0) 122%);
   }
   41.42857% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 75%, #0096ff 75%, #0096ff 76%, rgba(0, 150, 255, 0) 76%, rgba(0, 150, 255, 0) 88%, #0096ff 88%, #0096ff 90%, rgba(0, 150, 255, 0) 90%, rgba(0, 150, 255, 0) 101%, #0096ff 101%, #0096ff 103%, rgba(0, 150, 255, 0) 103%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 41%, #0096ff 41%, #0096ff 44%, rgba(0, 150, 255, 0) 44%, rgba(0, 150, 255, 0) 94%, #0096ff 94%, #0096ff 97%, rgba(0, 150, 255, 0) 97%, rgba(0, 150, 255, 0) 100%, #0096ff 100%, #0096ff 103%, rgba(0, 150, 255, 0) 103%);
   }
   42.85714% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 90%, #0096ff 90%, #0096ff 91%, rgba(0, 150, 255, 0) 91%, rgba(0, 150, 255, 0) 128%, #0096ff 128%, #0096ff 129%, rgba(0, 150, 255, 0) 129%, rgba(0, 150, 255, 0) 176%, #0096ff 176%, #0096ff 178%, rgba(0, 150, 255, 0) 178%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 25%, #0096ff 25%, #0096ff 27%, rgba(0, 150, 255, 0) 27%, rgba(0, 150, 255, 0) 31%, #0096ff 31%, #0096ff 34%, rgba(0, 150, 255, 0) 34%, rgba(0, 150, 255, 0) 42%, #0096ff 42%, #0096ff 45%, rgba(0, 150, 255, 0) 45%);
   }
   44.28571% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 63%, #0096ff 63%, #0096ff 66%, rgba(0, 150, 255, 0) 66%, rgba(0, 150, 255, 0) 98%, #0096ff 98%, #0096ff 99%, rgba(0, 150, 255, 0) 99%, rgba(0, 150, 255, 0) 110%, #0096ff 110%, #0096ff 113%, rgba(0, 150, 255, 0) 113%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 99%, #0096ff 99%, #0096ff 102%, rgba(0, 150, 255, 0) 102%, rgba(0, 150, 255, 0) 134%, #0096ff 134%, #0096ff 135%, rgba(0, 150, 255, 0) 135%, rgba(0, 150, 255, 0) 153%, #0096ff 153%, #0096ff 154%, rgba(0, 150, 255, 0) 154%);
   }
   45.71429% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 1%, #0096ff 1%, #0096ff 4%, rgba(0, 150, 255, 0) 4%, rgba(0, 150, 255, 0) 19%, #0096ff 19%, #0096ff 21%, rgba(0, 150, 255, 0) 21%, rgba(0, 150, 255, 0) 30%, #0096ff 30%, #0096ff 32%, rgba(0, 150, 255, 0) 32%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 59%, #0096ff 59%, #0096ff 60%, rgba(0, 150, 255, 0) 60%, rgba(0, 150, 255, 0) 87%, #0096ff 87%, #0096ff 88%, rgba(0, 150, 255, 0) 88%, rgba(0, 150, 255, 0) 137%, #0096ff 137%, #0096ff 139%, rgba(0, 150, 255, 0) 139%);
   }
   47.14286% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 47%, #0096ff 47%, #0096ff 48%, rgba(0, 150, 255, 0) 48%, rgba(0, 150, 255, 0) 73%, #0096ff 73%, #0096ff 74%, rgba(0, 150, 255, 0) 74%, rgba(0, 150, 255, 0) 104%, #0096ff 104%, #0096ff 105%, rgba(0, 150, 255, 0) 105%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 40%, #0096ff 40%, #0096ff 41%, rgba(0, 150, 255, 0) 41%, rgba(0, 150, 255, 0) 76%, #0096ff 76%, #0096ff 78%, rgba(0, 150, 255, 0) 78%, rgba(0, 150, 255, 0) 83%, #0096ff 83%, #0096ff 86%, rgba(0, 150, 255, 0) 86%);
   }
   48.57143% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 100%, #0096ff 100%, #0096ff 103%, rgba(0, 150, 255, 0) 103%, rgba(0, 150, 255, 0) 116%, #0096ff 116%, #0096ff 119%, rgba(0, 150, 255, 0) 119%, rgba(0, 150, 255, 0) 139%, #0096ff 139%, #0096ff 140%, rgba(0, 150, 255, 0) 140%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 32%, #0096ff 32%, #0096ff 34%, rgba(0, 150, 255, 0) 34%, rgba(0, 150, 255, 0) 65%, #0096ff 65%, #0096ff 66%, rgba(0, 150, 255, 0) 66%, rgba(0, 150, 255, 0) 98%, #0096ff 98%, #0096ff 99%, rgba(0, 150, 255, 0) 99%);
   }
   50% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 65%, #0096ff 65%, #0096ff 66%, rgba(0, 150, 255, 0) 66%, rgba(0, 150, 255, 0) 68%, #0096ff 68%, #0096ff 71%, rgba(0, 150, 255, 0) 71%, rgba(0, 150, 255, 0) 98%, #0096ff 98%, #0096ff 100%, rgba(0, 150, 255, 0) 100%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 56%, #0096ff 56%, #0096ff 58%, rgba(0, 150, 255, 0) 58%, rgba(0, 150, 255, 0) 60%, #0096ff 60%, #0096ff 62%, rgba(0, 150, 255, 0) 62%, rgba(0, 150, 255, 0) 100%, #0096ff 100%, #0096ff 102%, rgba(0, 150, 255, 0) 102%);
   }
   51.42857% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 64%, #0096ff 64%, #0096ff 65%, rgba(0, 150, 255, 0) 65%, rgba(0, 150, 255, 0) 98%, #0096ff 98%, #0096ff 101%, rgba(0, 150, 255, 0) 101%, rgba(0, 150, 255, 0) 148%, #0096ff 148%, #0096ff 149%, rgba(0, 150, 255, 0) 149%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 66%, #0096ff 66%, #0096ff 68%, rgba(0, 150, 255, 0) 68%, rgba(0, 150, 255, 0) 72%, #0096ff 72%, #0096ff 73%, rgba(0, 150, 255, 0) 73%, rgba(0, 150, 255, 0) 78%, #0096ff 78%, #0096ff 81%, rgba(0, 150, 255, 0) 81%);
   }
   52.85714% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 5%, #0096ff 5%, #0096ff 7%, rgba(0, 150, 255, 0) 7%, rgba(0, 150, 255, 0) 20%, #0096ff 20%, #0096ff 22%, rgba(0, 150, 255, 0) 22%, rgba(0, 150, 255, 0) 34%, #0096ff 34%, #0096ff 37%, rgba(0, 150, 255, 0) 37%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 77%, #0096ff 77%, #0096ff 79%, rgba(0, 150, 255, 0) 79%, rgba(0, 150, 255, 0) 94%, #0096ff 94%, #0096ff 96%, rgba(0, 150, 255, 0) 96%, rgba(0, 150, 255, 0) 137%, #0096ff 137%, #0096ff 139%, rgba(0, 150, 255, 0) 139%);
   }
   54.28571% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 79%, #0096ff 79%, #0096ff 82%, rgba(0, 150, 255, 0) 82%, rgba(0, 150, 255, 0) 125%, #0096ff 125%, #0096ff 127%, rgba(0, 150, 255, 0) 127%, rgba(0, 150, 255, 0) 165%, #0096ff 165%, #0096ff 168%, rgba(0, 150, 255, 0) 168%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 47%, #0096ff 47%, #0096ff 49%, rgba(0, 150, 255, 0) 49%, rgba(0, 150, 255, 0) 69%, #0096ff 69%, #0096ff 72%, rgba(0, 150, 255, 0) 72%, rgba(0, 150, 255, 0) 78%, #0096ff 78%, #0096ff 80%, rgba(0, 150, 255, 0) 80%);
   }
   55.71429% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 22%, #0096ff 22%, #0096ff 23%, rgba(0, 150, 255, 0) 23%, rgba(0, 150, 255, 0) 38%, #0096ff 38%, #0096ff 40%, rgba(0, 150, 255, 0) 40%, rgba(0, 150, 255, 0) 51%, #0096ff 51%, #0096ff 53%, rgba(0, 150, 255, 0) 53%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 45%, #0096ff 45%, #0096ff 48%, rgba(0, 150, 255, 0) 48%, rgba(0, 150, 255, 0) 50%, #0096ff 50%, #0096ff 52%, rgba(0, 150, 255, 0) 52%, rgba(0, 150, 255, 0) 55%, #0096ff 55%, #0096ff 57%, rgba(0, 150, 255, 0) 57%);
   }
   57.14286% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 90%, #0096ff 90%, #0096ff 92%, rgba(0, 150, 255, 0) 92%, rgba(0, 150, 255, 0) 119%, #0096ff 119%, #0096ff 121%, rgba(0, 150, 255, 0) 121%, rgba(0, 150, 255, 0) 143%, #0096ff 143%, #0096ff 145%, rgba(0, 150, 255, 0) 145%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 91%, #0096ff 91%, #0096ff 92%, rgba(0, 150, 255, 0) 92%, rgba(0, 150, 255, 0) 136%, #0096ff 136%, #0096ff 139%, rgba(0, 150, 255, 0) 139%, rgba(0, 150, 255, 0) 144%, #0096ff 144%, #0096ff 146%, rgba(0, 150, 255, 0) 146%);
   }
   58.57143% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 43%, #0096ff 43%, #0096ff 46%, rgba(0, 150, 255, 0) 46%, rgba(0, 150, 255, 0) 58%, #0096ff 58%, #0096ff 59%, rgba(0, 150, 255, 0) 59%, rgba(0, 150, 255, 0) 93%, #0096ff 93%, #0096ff 94%, rgba(0, 150, 255, 0) 94%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 15%, #0096ff 15%, #0096ff 18%, rgba(0, 150, 255, 0) 18%, rgba(0, 150, 255, 0) 61%, #0096ff 61%, #0096ff 62%, rgba(0, 150, 255, 0) 62%, rgba(0, 150, 255, 0) 82%, #0096ff 82%, #0096ff 83%, rgba(0, 150, 255, 0) 83%);
   }
   60% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 87%, #0096ff 87%, #0096ff 88%, rgba(0, 150, 255, 0) 88%, rgba(0, 150, 255, 0) 137%, #0096ff 137%, #0096ff 138%, rgba(0, 150, 255, 0) 138%, rgba(0, 150, 255, 0) 173%, #0096ff 173%, #0096ff 176%, rgba(0, 150, 255, 0) 176%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 5%, #0096ff 5%, #0096ff 7%, rgba(0, 150, 255, 0) 7%, rgba(0, 150, 255, 0) 17%, #0096ff 17%, #0096ff 18%, rgba(0, 150, 255, 0) 18%, rgba(0, 150, 255, 0) 60%, #0096ff 60%, #0096ff 62%, rgba(0, 150, 255, 0) 62%);
   }
   61.42857% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 24%, #0096ff 24%, #0096ff 27%, rgba(0, 150, 255, 0) 27%, rgba(0, 150, 255, 0) 39%, #0096ff 39%, #0096ff 40%, rgba(0, 150, 255, 0) 40%, rgba(0, 150, 255, 0) 63%, #0096ff 63%, #0096ff 64%, rgba(0, 150, 255, 0) 64%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 95%, #0096ff 95%, #0096ff 97%, rgba(0, 150, 255, 0) 97%, rgba(0, 150, 255, 0) 118%, #0096ff 118%, #0096ff 119%, rgba(0, 150, 255, 0) 119%, rgba(0, 150, 255, 0) 126%, #0096ff 126%, #0096ff 129%, rgba(0, 150, 255, 0) 129%);
   }
   62.85714% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 89%, #0096ff 89%, #0096ff 90%, rgba(0, 150, 255, 0) 90%, rgba(0, 150, 255, 0) 91%, #0096ff 91%, #0096ff 94%, rgba(0, 150, 255, 0) 94%, rgba(0, 150, 255, 0) 130%, #0096ff 130%, #0096ff 132%, rgba(0, 150, 255, 0) 132%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 36%, #0096ff 36%, #0096ff 38%, rgba(0, 150, 255, 0) 38%, rgba(0, 150, 255, 0) 55%, #0096ff 55%, #0096ff 57%, rgba(0, 150, 255, 0) 57%, rgba(0, 150, 255, 0) 71%, #0096ff 71%, #0096ff 73%, rgba(0, 150, 255, 0) 73%);
   }
   64.28571% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 90%, #0096ff 90%, #0096ff 92%, rgba(0, 150, 255, 0) 92%, rgba(0, 150, 255, 0) 138%, #0096ff 138%, #0096ff 139%, rgba(0, 150, 255, 0) 139%, rgba(0, 150, 255, 0) 168%, #0096ff 168%, #0096ff 170%, rgba(0, 150, 255, 0) 170%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 67%, #0096ff 67%, #0096ff 70%, rgba(0, 150, 255, 0) 70%, rgba(0, 150, 255, 0) 93%, #0096ff 93%, #0096ff 96%, rgba(0, 150, 255, 0) 96%, rgba(0, 150, 255, 0) 121%, #0096ff 121%, #0096ff 123%, rgba(0, 150, 255, 0) 123%);
   }
   65.71429% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 40%, #0096ff 40%, #0096ff 41%, rgba(0, 150, 255, 0) 41%, rgba(0, 150, 255, 0) 83%, #0096ff 83%, #0096ff 84%, rgba(0, 150, 255, 0) 84%, rgba(0, 150, 255, 0) 126%, #0096ff 126%, #0096ff 129%, rgba(0, 150, 255, 0) 129%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 44%, #0096ff 44%, #0096ff 46%, rgba(0, 150, 255, 0) 46%, rgba(0, 150, 255, 0) 82%, #0096ff 82%, #0096ff 83%, rgba(0, 150, 255, 0) 83%, rgba(0, 150, 255, 0) 94%, #0096ff 94%, #0096ff 97%, rgba(0, 150, 255, 0) 97%);
   }
   67.14286% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 16%, #0096ff 16%, #0096ff 18%, rgba(0, 150, 255, 0) 18%, rgba(0, 150, 255, 0) 39%, #0096ff 39%, #0096ff 40%, rgba(0, 150, 255, 0) 40%, rgba(0, 150, 255, 0) 83%, #0096ff 83%, #0096ff 85%, rgba(0, 150, 255, 0) 85%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 55%, #0096ff 55%, #0096ff 58%, rgba(0, 150, 255, 0) 58%, rgba(0, 150, 255, 0) 71%, #0096ff 71%, #0096ff 73%, rgba(0, 150, 255, 0) 73%, rgba(0, 150, 255, 0) 91%, #0096ff 91%, #0096ff 92%, rgba(0, 150, 255, 0) 92%);
   }
   68.57143% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 71%, #0096ff 71%, #0096ff 73%, rgba(0, 150, 255, 0) 73%, rgba(0, 150, 255, 0) 110%, #0096ff 110%, #0096ff 111%, rgba(0, 150, 255, 0) 111%, rgba(0, 150, 255, 0) 121%, #0096ff 121%, #0096ff 123%, rgba(0, 150, 255, 0) 123%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 68%, #0096ff 68%, #0096ff 70%, rgba(0, 150, 255, 0) 70%, rgba(0, 150, 255, 0) 108%, #0096ff 108%, #0096ff 110%, rgba(0, 150, 255, 0) 110%, rgba(0, 150, 255, 0) 124%, #0096ff 124%, #0096ff 126%, rgba(0, 150, 255, 0) 126%);
   }
   70% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 1%, #0096ff 1%, #0096ff 4%, rgba(0, 150, 255, 0) 4%, rgba(0, 150, 255, 0) 18%, #0096ff 18%, #0096ff 21%, rgba(0, 150, 255, 0) 21%, rgba(0, 150, 255, 0) 47%, #0096ff 47%, #0096ff 48%, rgba(0, 150, 255, 0) 48%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 93%, #0096ff 93%, #0096ff 94%, rgba(0, 150, 255, 0) 94%, rgba(0, 150, 255, 0) 142%, #0096ff 142%, #0096ff 144%, rgba(0, 150, 255, 0) 144%, rgba(0, 150, 255, 0) 185%, #0096ff 185%, #0096ff 187%, rgba(0, 150, 255, 0) 187%);
   }
   71.42857% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 25%, #0096ff 25%, #0096ff 26%, rgba(0, 150, 255, 0) 26%, rgba(0, 150, 255, 0) 74%, #0096ff 74%, #0096ff 76%, rgba(0, 150, 255, 0) 76%, rgba(0, 150, 255, 0) 96%, #0096ff 96%, #0096ff 99%, rgba(0, 150, 255, 0) 99%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 75%, #0096ff 75%, #0096ff 76%, rgba(0, 150, 255, 0) 76%, rgba(0, 150, 255, 0) 89%, #0096ff 89%, #0096ff 92%, rgba(0, 150, 255, 0) 92%, rgba(0, 150, 255, 0) 98%, #0096ff 98%, #0096ff 101%, rgba(0, 150, 255, 0) 101%);
   }
   72.85714% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 65%, #0096ff 65%, #0096ff 66%, rgba(0, 150, 255, 0) 66%, rgba(0, 150, 255, 0) 103%, #0096ff 103%, #0096ff 106%, rgba(0, 150, 255, 0) 106%, rgba(0, 150, 255, 0) 114%, #0096ff 114%, #0096ff 116%, rgba(0, 150, 255, 0) 116%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 79%, #0096ff 79%, #0096ff 80%, rgba(0, 150, 255, 0) 80%, rgba(0, 150, 255, 0) 121%, #0096ff 121%, #0096ff 123%, rgba(0, 150, 255, 0) 123%, rgba(0, 150, 255, 0) 148%, #0096ff 148%, #0096ff 149%, rgba(0, 150, 255, 0) 149%);
   }
   74.28571% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 77%, #0096ff 77%, #0096ff 79%, rgba(0, 150, 255, 0) 79%, rgba(0, 150, 255, 0) 111%, #0096ff 111%, #0096ff 113%, rgba(0, 150, 255, 0) 113%, rgba(0, 150, 255, 0) 144%, #0096ff 144%, #0096ff 146%, rgba(0, 150, 255, 0) 146%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 12%, #0096ff 12%, #0096ff 14%, rgba(0, 150, 255, 0) 14%, rgba(0, 150, 255, 0) 50%, #0096ff 50%, #0096ff 51%, rgba(0, 150, 255, 0) 51%, rgba(0, 150, 255, 0) 76%, #0096ff 76%, #0096ff 78%, rgba(0, 150, 255, 0) 78%);
   }
   75.71429% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 57%, #0096ff 57%, #0096ff 58%, rgba(0, 150, 255, 0) 58%, rgba(0, 150, 255, 0) 92%, #0096ff 92%, #0096ff 95%, rgba(0, 150, 255, 0) 95%, rgba(0, 150, 255, 0) 110%, #0096ff 110%, #0096ff 112%, rgba(0, 150, 255, 0) 112%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 23%, #0096ff 23%, #0096ff 26%, rgba(0, 150, 255, 0) 26%, rgba(0, 150, 255, 0) 60%, #0096ff 60%, #0096ff 63%, rgba(0, 150, 255, 0) 63%, rgba(0, 150, 255, 0) 99%, #0096ff 99%, #0096ff 100%, rgba(0, 150, 255, 0) 100%);
   }
   77.14286% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 1%, #0096ff 1%, #0096ff 2%, rgba(0, 150, 255, 0) 2%, rgba(0, 150, 255, 0) 43%, #0096ff 43%, #0096ff 45%, rgba(0, 150, 255, 0) 45%, rgba(0, 150, 255, 0) 50%, #0096ff 50%, #0096ff 52%, rgba(0, 150, 255, 0) 52%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 45%, #0096ff 45%, #0096ff 48%, rgba(0, 150, 255, 0) 48%, rgba(0, 150, 255, 0) 71%, #0096ff 71%, #0096ff 73%, rgba(0, 150, 255, 0) 73%, rgba(0, 150, 255, 0) 109%, #0096ff 109%, #0096ff 111%, rgba(0, 150, 255, 0) 111%);
   }
   78.57143% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 43%, #0096ff 43%, #0096ff 46%, rgba(0, 150, 255, 0) 46%, rgba(0, 150, 255, 0) 79%, #0096ff 79%, #0096ff 81%, rgba(0, 150, 255, 0) 81%, rgba(0, 150, 255, 0) 102%, #0096ff 102%, #0096ff 105%, rgba(0, 150, 255, 0) 105%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 45%, #0096ff 45%, #0096ff 46%, rgba(0, 150, 255, 0) 46%, rgba(0, 150, 255, 0) 68%, #0096ff 68%, #0096ff 69%, rgba(0, 150, 255, 0) 69%, rgba(0, 150, 255, 0) 90%, #0096ff 90%, #0096ff 93%, rgba(0, 150, 255, 0) 93%);
   }
   80% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 7%, #0096ff 7%, #0096ff 9%, rgba(0, 150, 255, 0) 9%, rgba(0, 150, 255, 0) 25%, #0096ff 25%, #0096ff 28%, rgba(0, 150, 255, 0) 28%, rgba(0, 150, 255, 0) 32%, #0096ff 32%, #0096ff 33%, rgba(0, 150, 255, 0) 33%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 92%, #0096ff 92%, #0096ff 95%, rgba(0, 150, 255, 0) 95%, rgba(0, 150, 255, 0) 99%, #0096ff 99%, #0096ff 101%, rgba(0, 150, 255, 0) 101%, rgba(0, 150, 255, 0) 113%, #0096ff 113%, #0096ff 116%, rgba(0, 150, 255, 0) 116%);
   }
   81.42857% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 40%, #0096ff 40%, #0096ff 41%, rgba(0, 150, 255, 0) 41%, rgba(0, 150, 255, 0) 63%, #0096ff 63%, #0096ff 65%, rgba(0, 150, 255, 0) 65%, rgba(0, 150, 255, 0) 75%, #0096ff 75%, #0096ff 77%, rgba(0, 150, 255, 0) 77%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 60%, #0096ff 60%, #0096ff 61%, rgba(0, 150, 255, 0) 61%, rgba(0, 150, 255, 0) 67%, #0096ff 67%, #0096ff 69%, rgba(0, 150, 255, 0) 69%, rgba(0, 150, 255, 0) 102%, #0096ff 102%, #0096ff 105%, rgba(0, 150, 255, 0) 105%);
   }
   82.85714% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 86%, #0096ff 86%, #0096ff 87%, rgba(0, 150, 255, 0) 87%, rgba(0, 150, 255, 0) 114%, #0096ff 114%, #0096ff 117%, rgba(0, 150, 255, 0) 117%, rgba(0, 150, 255, 0) 165%, #0096ff 165%, #0096ff 167%, rgba(0, 150, 255, 0) 167%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 7%, #0096ff 7%, #0096ff 8%, rgba(0, 150, 255, 0) 8%, rgba(0, 150, 255, 0) 17%, #0096ff 17%, #0096ff 19%, rgba(0, 150, 255, 0) 19%, rgba(0, 150, 255, 0) 26%, #0096ff 26%, #0096ff 27%, rgba(0, 150, 255, 0) 27%);
   }
   84.28571% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 91%, #0096ff 91%, #0096ff 93%, rgba(0, 150, 255, 0) 93%, rgba(0, 150, 255, 0) 131%, #0096ff 131%, #0096ff 134%, rgba(0, 150, 255, 0) 134%, rgba(0, 150, 255, 0) 171%, #0096ff 171%, #0096ff 174%, rgba(0, 150, 255, 0) 174%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 49%, #0096ff 49%, #0096ff 51%, rgba(0, 150, 255, 0) 51%, rgba(0, 150, 255, 0) 70%, #0096ff 70%, #0096ff 71%, rgba(0, 150, 255, 0) 71%, rgba(0, 150, 255, 0) 111%, #0096ff 111%, #0096ff 112%, rgba(0, 150, 255, 0) 112%);
   }
   85.71429% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 85%, #0096ff 85%, #0096ff 88%, rgba(0, 150, 255, 0) 88%, rgba(0, 150, 255, 0) 103%, #0096ff 103%, #0096ff 105%, rgba(0, 150, 255, 0) 105%, rgba(0, 150, 255, 0) 140%, #0096ff 140%, #0096ff 141%, rgba(0, 150, 255, 0) 141%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 81%, #0096ff 81%, #0096ff 84%, rgba(0, 150, 255, 0) 84%, rgba(0, 150, 255, 0) 109%, #0096ff 109%, #0096ff 112%, rgba(0, 150, 255, 0) 112%, rgba(0, 150, 255, 0) 130%, #0096ff 130%, #0096ff 131%, rgba(0, 150, 255, 0) 131%);
   }
   87.14286% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 73%, #0096ff 73%, #0096ff 76%, rgba(0, 150, 255, 0) 76%, rgba(0, 150, 255, 0) 116%, #0096ff 116%, #0096ff 119%, rgba(0, 150, 255, 0) 119%, rgba(0, 150, 255, 0) 130%, #0096ff 130%, #0096ff 133%, rgba(0, 150, 255, 0) 133%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 18%, #0096ff 18%, #0096ff 20%, rgba(0, 150, 255, 0) 20%, rgba(0, 150, 255, 0) 47%, #0096ff 47%, #0096ff 49%, rgba(0, 150, 255, 0) 49%, rgba(0, 150, 255, 0) 54%, #0096ff 54%, #0096ff 56%, rgba(0, 150, 255, 0) 56%);
   }
   88.57143% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 55%, #0096ff 55%, #0096ff 57%, rgba(0, 150, 255, 0) 57%, rgba(0, 150, 255, 0) 59%, #0096ff 59%, #0096ff 61%, rgba(0, 150, 255, 0) 61%, rgba(0, 150, 255, 0) 104%, #0096ff 104%, #0096ff 107%, rgba(0, 150, 255, 0) 107%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 30%, #0096ff 30%, #0096ff 33%, rgba(0, 150, 255, 0) 33%, rgba(0, 150, 255, 0) 75%, #0096ff 75%, #0096ff 78%, rgba(0, 150, 255, 0) 78%, rgba(0, 150, 255, 0) 120%, #0096ff 120%, #0096ff 122%, rgba(0, 150, 255, 0) 122%);
   }
   90% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 27%, #0096ff 27%, #0096ff 28%, rgba(0, 150, 255, 0) 28%, rgba(0, 150, 255, 0) 78%, #0096ff 78%, #0096ff 79%, rgba(0, 150, 255, 0) 79%, rgba(0, 150, 255, 0) 84%, #0096ff 84%, #0096ff 85%, rgba(0, 150, 255, 0) 85%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 18%, #0096ff 18%, #0096ff 20%, rgba(0, 150, 255, 0) 20%, rgba(0, 150, 255, 0) 27%, #0096ff 27%, #0096ff 28%, rgba(0, 150, 255, 0) 28%, rgba(0, 150, 255, 0) 78%, #0096ff 78%, #0096ff 80%, rgba(0, 150, 255, 0) 80%);
   }
   91.42857% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 18%, #0096ff 18%, #0096ff 21%, rgba(0, 150, 255, 0) 21%, rgba(0, 150, 255, 0) 48%, #0096ff 48%, #0096ff 51%, rgba(0, 150, 255, 0) 51%, rgba(0, 150, 255, 0) 77%, #0096ff 77%, #0096ff 78%, rgba(0, 150, 255, 0) 78%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 96%, #0096ff 96%, #0096ff 97%, rgba(0, 150, 255, 0) 97%, rgba(0, 150, 255, 0) 122%, #0096ff 122%, #0096ff 124%, rgba(0, 150, 255, 0) 124%, rgba(0, 150, 255, 0) 145%, #0096ff 145%, #0096ff 148%, rgba(0, 150, 255, 0) 148%);
   }
   92.85714% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 80%, #0096ff 80%, #0096ff 82%, rgba(0, 150, 255, 0) 82%, rgba(0, 150, 255, 0) 120%, #0096ff 120%, #0096ff 121%, rgba(0, 150, 255, 0) 121%, rgba(0, 150, 255, 0) 134%, #0096ff 134%, #0096ff 135%, rgba(0, 150, 255, 0) 135%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 17%, #0096ff 17%, #0096ff 18%, rgba(0, 150, 255, 0) 18%, rgba(0, 150, 255, 0) 50%, #0096ff 50%, #0096ff 53%, rgba(0, 150, 255, 0) 53%, rgba(0, 150, 255, 0) 89%, #0096ff 89%, #0096ff 91%, rgba(0, 150, 255, 0) 91%);
   }
   94.28571% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 35%, #0096ff 35%, #0096ff 38%, rgba(0, 150, 255, 0) 38%, rgba(0, 150, 255, 0) 67%, #0096ff 67%, #0096ff 68%, rgba(0, 150, 255, 0) 68%, rgba(0, 150, 255, 0) 76%, #0096ff 76%, #0096ff 77%, rgba(0, 150, 255, 0) 77%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 84%, #0096ff 84%, #0096ff 86%, rgba(0, 150, 255, 0) 86%, rgba(0, 150, 255, 0) 122%, #0096ff 122%, #0096ff 125%, rgba(0, 150, 255, 0) 125%, rgba(0, 150, 255, 0) 153%, #0096ff 153%, #0096ff 154%, rgba(0, 150, 255, 0) 154%);
   }
   95.71429% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 35%, #0096ff 35%, #0096ff 36%, rgba(0, 150, 255, 0) 36%, rgba(0, 150, 255, 0) 78%, #0096ff 78%, #0096ff 81%, rgba(0, 150, 255, 0) 81%, rgba(0, 150, 255, 0) 98%, #0096ff 98%, #0096ff 100%, rgba(0, 150, 255, 0) 100%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 50%, #0096ff 50%, #0096ff 51%, rgba(0, 150, 255, 0) 51%, rgba(0, 150, 255, 0) 97%, #0096ff 97%, #0096ff 99%, rgba(0, 150, 255, 0) 99%, rgba(0, 150, 255, 0) 118%, #0096ff 118%, #0096ff 120%, rgba(0, 150, 255, 0) 120%);
   }
   97.14286% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 4%, #0096ff 4%, #0096ff 5%, rgba(0, 150, 255, 0) 5%, rgba(0, 150, 255, 0) 16%, #0096ff 16%, #0096ff 17%, rgba(0, 150, 255, 0) 17%, rgba(0, 150, 255, 0) 18%, #0096ff 18%, #0096ff 21%, rgba(0, 150, 255, 0) 21%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 96%, #0096ff 96%, #0096ff 99%, rgba(0, 150, 255, 0) 99%, rgba(0, 150, 255, 0) 104%, #0096ff 104%, #0096ff 105%, rgba(0, 150, 255, 0) 105%, rgba(0, 150, 255, 0) 144%, #0096ff 144%, #0096ff 147%, rgba(0, 150, 255, 0) 147%);
   }
   98.57143% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 68%, #0096ff 68%, #0096ff 70%, rgba(0, 150, 255, 0) 70%, rgba(0, 150, 255, 0) 119%, #0096ff 119%, #0096ff 121%, rgba(0, 150, 255, 0) 121%, rgba(0, 150, 255, 0) 167%, #0096ff 167%, #0096ff 170%, rgba(0, 150, 255, 0) 170%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 87%, #0096ff 87%, #0096ff 89%, rgba(0, 150, 255, 0) 89%, rgba(0, 150, 255, 0) 104%, #0096ff 104%, #0096ff 107%, rgba(0, 150, 255, 0) 107%, rgba(0, 150, 255, 0) 153%, #0096ff 153%, #0096ff 155%, rgba(0, 150, 255, 0) 155%);
   }
   100% {
-    background-image: conic-gradient(rgba(0, 150, 255, 0) 9%, #0096ff 9%, #0096ff 12%, rgba(0, 150, 255, 0) 12%, rgba(0, 150, 255, 0) 36%, #0096ff 36%, #0096ff 38%, rgba(0, 150, 255, 0) 38%, rgba(0, 150, 255, 0) 52%, #0096ff 52%, #0096ff 53%, rgba(0, 150, 255, 0) 53%);
+    background-image: conic-gradient(rgba(0, 150, 255, 0) 2%, #0096ff 2%, #0096ff 3%, rgba(0, 150, 255, 0) 3%, rgba(0, 150, 255, 0) 45%, #0096ff 45%, #0096ff 47%, rgba(0, 150, 255, 0) 47%, rgba(0, 150, 255, 0) 83%, #0096ff 83%, #0096ff 86%, rgba(0, 150, 255, 0) 86%);
   }
 }
 
