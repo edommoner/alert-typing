@@ -1,24 +1,23 @@
 $(function() {
-    url_common = "//cdn.jsdelivr.net/gh/edommoner/alert-typing@";
+    url_common = "https://cdn.jsdelivr.net/gh/edommoner/alert-typing@";
     url_ver = "0.3.7.6/";
     // url_ver = "lated/";
     url_head = url_common + url_ver;
 
-    loadCss(url_head + "flame.min.css", dummy());
-    loadCss(url_head + "alert-typing.min.css", dummy());
-    loadScript(url_head + "mgGlitch.min.js", dummy());
-    loadScript(url_head + "flame.min.js", dummy());
-    loadScript(url_head + "alert-typing.min.js", dummy());
-
-});
-
-$(window).on("load", function() {
+    load_files = [];
+    load_files.push(url_head + "alert-typing.min.css");
+    load_files.push(url_head + "flame.min.css");
+    load_files.push(url_head + "mgGlitch.min.js");
+    load_files.push(url_head + "flame.min.js");
+    load_files.push(url_head + "alert-typing.min.js");
+    injectFile(load_files);
     start();
+
 });
 
-function dummy() {
-
-}
+// $(window).on("load", function() {
+//     start();
+// });
 
 function start() {
 
@@ -68,45 +67,34 @@ function start() {
     $().alert_typing();
 }
 
-function loadScript(src, callback) {
-    var done = false;
-    var head = document.getElementsByTagName('head')[0];
-    var script = document.createElement('script');
-    script.src = src;
-    head.appendChild(script);
-    // Attach handlers for all browsers
-    // script.onload = script.onreadystatechange = function() {
-    //     if (!done && (!this.readyState ||
-    //             this.readyState === "loaded" || this.readyState === "complete")) {
-    //         done = true;
-    //         callback();
-    //         // Handle memory leak in IE
-    //         script.onload = script.onreadystatechange = null;
-    //         if (head && script.parentNode) {
-    //             head.removeChild(script);
-    //         }
-    //     }
-    // };
-}
+function injectFile(loadFiles) {
+    var tags = document.createDocumentFragment();
+    for (var i = 0; i < loadFiles.length; i++) {
+        if (loadFiles[i].match(/\.css$/)) {
+            var read_flag = true;
+            $.each($("link"), function(indexInArray, valueOfElement) {
+                if ($(this).attr("href") == loadFiles[i])
+                    read_flag = false;
+            });
 
-function loadCss(src, callback) {
-    var done = false;
-    var head = document.getElementsByTagName('head')[0];
-    var link = document.createElement('link');
-    link.rel = 'stylesheet';
-    head.appendChild(link);
-    link.href = src;
-    // Attach handlers for all browsers
-    // link.onload = link.onreadystatechange = function() {
-    //     if (!done && (!this.readyState ||
-    //             this.readyState === "loaded" || this.readyState === "complete")) {
-    //         done = true;
-    //         callback();
-    //         // Handle memory leak in IE
-    //         link.onload = link.onreadystatechange = null;
-    //         if (head && link.parentNode) {
-    //             head.removeChild(link);
-    //         }
-    //     }
-    // };
+            if (read_flag) {
+                var link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.href = loadFiles[i];
+                tags.appendChild(link);
+            }
+        } else if (loadFiles[i].match(/\.js$/)) {
+            var read_flag = true;
+            $.each($("script"), function(indexInArray, valueOfElement) {
+                if ($(this).attr("src") == loadFiles[i])
+                    read_flag = false;
+            });
+            if (read_flag) {
+                var script = document.createElement('script');
+                script.src = loadFiles[i];
+                tags.appendChild(script);
+            }
+        }
+        document.getElementsByTagName('head')[0].appendChild(tags);
+    }
 }
