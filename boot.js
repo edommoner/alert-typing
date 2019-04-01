@@ -3,7 +3,7 @@ $(function() {
     url_ver = "0.3.7.5/";
     url_head = url_common + url_ver;
 
-    loadCss(url_head + "lame.min.css",
+    loadCss(url_head + "flame.min.css",
         loadCss(url_head + "alert-typing.min.css",
             loadScript(url_head + "mgGlitch.min.js",
                 loadScript(url_head + "flame.min.js",
