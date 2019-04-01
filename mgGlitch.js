@@ -138,7 +138,8 @@
                 $(el).css({
                     'clip': 'rect(' + clipPos1 + 'px, ' + clipPos2 + 'px, ' + clipPos3 + 'px,' + clipPos4 + 'px)',
                     'right': rightValue,
-                    'left': leftValue
+                    'left': leftValue,
+                    "top": 0
                 });
 
                 // set loop with random time
@@ -169,6 +170,7 @@
                 $(el).next().css({
                     'clip': 'rect(' + clipPos1 + 'px, ' + clipPos2 + 'px, ' + clipPos3 + 'px,' + clipPos4 + 'px)',
                     'left': leftValue,
+                    "top": 0,
                     'right': rightValue,
                     '-webkit-transform': 'scale(' + scaleValue + ')',
                     '-ms-transform': 'scale(' + scaleValue + ')',
@@ -203,6 +205,7 @@
                 $(el).next().next().css({
                     'clip': 'rect(' + clipPos1 + 'px, ' + clipPos2 + 'px, ' + clipPos3 + 'px,' + clipPos4 + 'px)',
                     'left': leftValue,
+                    "top": 0,
                     'right': rightValue,
                     '-webkit-transform': 'scale(' + scaleValue + ')',
                     '-ms-transform': 'scale(' + scaleValue + ')',
