@@ -1,4 +1,4 @@
-let alert_typing = function() {
+alert_typing = function() {
     let effect = $("#alert-text-wrap").attr("data-effect");
 
     let glitch_flag = false;

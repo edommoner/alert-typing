@@ -1,4 +1,4 @@
-let make_flame_tags = function() {
+make_flame_tags = function() {
 
     $("#alert-text-wrap")
         .append($("<div id='_decoration-wrap' class='decoration-wrap'/>")
