@@ -14,8 +14,9 @@ let make_flame_tags = function() {
                 .append($("<div id='_decoration-ring1' class='_decoration-ring'/>"))
                 .append($("<div id='_decoration-ring3' class='_decoration-ring2'/>"))
             )
-            .append($("<div id='_decoration-text-area'/>"))
-        );
+
+        )
+        .append($("<div id='_decoration-text-area'/>"));
 
     $("#alert-text").css({ "padding": "0", "margin": "0" });
     $("#alert-message").css({ "font-size": "", "font-weight": "" });
