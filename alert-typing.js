@@ -92,7 +92,7 @@ async function typing(message_ary = [], glitch_flag2 = false) {
 }
 
 function glitch2() {
-    $(".decoration-wrap").mgGlitch({
+    $("#decoration-wrap").mgGlitch({
         // set 'true' to stop the plugin
         destroy: false,
         // set 'false' to stop glitching
