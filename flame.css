@@ -11,10 +11,10 @@
 #alert-text-wrap {
   display: block !important;
   position: fixed !important;
-  width: 250px !important;
+  width: 280px !important;
   height: 180px !important;
   top: 450px !important;
-  left: 835px !important;
+  left: 820px !important;
 }
 
 #alert-text-wrap span {
@@ -71,18 +71,20 @@
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  background: rgba(255, 255, 255, 0.9);
+  background: white;
 }
 
 #decoration-text-area {
-  position: relative;
-  top: -248px;
-  left: 69px;
-  width: 250px;
+  position: absolute;
+  top: 80px;
+  left: 35px;
+  width: 280px;
   height: 180px;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
   animation: text-area .7s linear;
+  background: #555;
+  color: white;
 }
 
 #decoration-ring-wrap {
@@ -233,175 +235,175 @@
 
 @keyframes decoration-ring-noise {
   0% {
-    transform: rotate(4deg);
-    clip: rect(5px, 9999px, 282px, 0);
+    transform: rotate(26deg);
+    clip: rect(69px, 9999px, 326px, 0);
   }
   5% {
-    transform: rotate(50deg);
-    clip: rect(8px, 9999px, 264px, 0);
+    transform: rotate(107deg);
+    clip: rect(35px, 9999px, 165px, 0);
   }
   10% {
-    transform: rotate(167deg);
-    clip: rect(67px, 9999px, 101px, 0);
+    transform: rotate(27deg);
+    clip: rect(18px, 9999px, 251px, 0);
   }
   15% {
-    transform: rotate(156deg);
-    clip: rect(4px, 9999px, 83px, 0);
+    transform: rotate(50deg);
+    clip: rect(85px, 9999px, 283px, 0);
   }
   20% {
-    transform: rotate(135deg);
-    clip: rect(78px, 9999px, 40px, 0);
+    transform: rotate(56deg);
+    clip: rect(18px, 9999px, 10px, 0);
   }
   25% {
-    transform: rotate(155deg);
-    clip: rect(89px, 9999px, 309px, 0);
+    transform: rotate(109deg);
+    clip: rect(84px, 9999px, 276px, 0);
   }
   30% {
-    transform: rotate(165deg);
-    clip: rect(83px, 9999px, 63px, 0);
+    transform: rotate(110deg);
+    clip: rect(97px, 9999px, 69px, 0);
   }
   35% {
-    transform: rotate(47deg);
-    clip: rect(31px, 9999px, 160px, 0);
+    transform: rotate(25deg);
+    clip: rect(61px, 9999px, 251px, 0);
   }
   40% {
-    transform: rotate(11deg);
-    clip: rect(78px, 9999px, 317px, 0);
+    transform: rotate(165deg);
+    clip: rect(99px, 9999px, 384px, 0);
   }
   45% {
-    transform: rotate(30deg);
-    clip: rect(12px, 9999px, 185px, 0);
+    transform: rotate(80deg);
+    clip: rect(88px, 9999px, 49px, 0);
   }
   50% {
-    transform: rotate(174deg);
-    clip: rect(42px, 9999px, 230px, 0);
+    transform: rotate(145deg);
+    clip: rect(70px, 9999px, 282px, 0);
   }
   55% {
-    transform: rotate(13deg);
-    clip: rect(54px, 9999px, 278px, 0);
+    transform: rotate(15deg);
+    clip: rect(10px, 9999px, 292px, 0);
   }
   60% {
-    transform: rotate(164deg);
-    clip: rect(24px, 9999px, 137px, 0);
+    transform: rotate(80deg);
+    clip: rect(91px, 9999px, 150px, 0);
   }
   65% {
-    transform: rotate(40deg);
-    clip: rect(26px, 9999px, 248px, 0);
+    transform: rotate(133deg);
+    clip: rect(61px, 9999px, 135px, 0);
   }
   70% {
-    transform: rotate(66deg);
-    clip: rect(96px, 9999px, 161px, 0);
+    transform: rotate(82deg);
+    clip: rect(15px, 9999px, 270px, 0);
   }
   75% {
-    transform: rotate(33deg);
-    clip: rect(10px, 9999px, 56px, 0);
+    transform: rotate(17deg);
+    clip: rect(70px, 9999px, 337px, 0);
   }
   80% {
-    transform: rotate(88deg);
-    clip: rect(95px, 9999px, 100px, 0);
+    transform: rotate(105deg);
+    clip: rect(64px, 9999px, 207px, 0);
   }
   85% {
-    transform: rotate(92deg);
-    clip: rect(12px, 9999px, 193px, 0);
+    transform: rotate(104deg);
+    clip: rect(46px, 9999px, 272px, 0);
   }
   90% {
-    transform: rotate(28deg);
-    clip: rect(38px, 9999px, 259px, 0);
+    transform: rotate(174deg);
+    clip: rect(25px, 9999px, 312px, 0);
   }
   95% {
-    transform: rotate(11deg);
-    clip: rect(52px, 9999px, 381px, 0);
+    transform: rotate(85deg);
+    clip: rect(74px, 9999px, 233px, 0);
   }
   100% {
-    transform: rotate(130deg);
-    clip: rect(9px, 9999px, 324px, 0);
+    transform: rotate(129deg);
+    clip: rect(83px, 9999px, 231px, 0);
   }
 }
 
 @keyframes decoration-ring-noise-2 {
   0% {
-    transform: rotate(10deg);
-    clip: rect(39px, 9999px, 321px, 0);
+    transform: rotate(108deg);
+    clip: rect(71px, 9999px, 126px, 0);
   }
   5% {
-    transform: rotate(1deg);
-    clip: rect(41px, 9999px, 309px, 0);
+    transform: rotate(104deg);
+    clip: rect(82px, 9999px, 320px, 0);
   }
   10% {
-    transform: rotate(80deg);
-    clip: rect(77px, 9999px, 195px, 0);
+    transform: rotate(118deg);
+    clip: rect(52px, 9999px, 40px, 0);
   }
   15% {
-    transform: rotate(91deg);
-    clip: rect(62px, 9999px, 62px, 0);
+    transform: rotate(24deg);
+    clip: rect(70px, 9999px, 66px, 0);
   }
   20% {
-    transform: rotate(134deg);
-    clip: rect(41px, 9999px, 402px, 0);
+    transform: rotate(9deg);
+    clip: rect(27px, 9999px, 2px, 0);
   }
   25% {
-    transform: rotate(109deg);
-    clip: rect(5px, 9999px, 54px, 0);
+    transform: rotate(137deg);
+    clip: rect(7px, 9999px, 123px, 0);
   }
   30% {
     transform: rotate(142deg);
-    clip: rect(41px, 9999px, 250px, 0);
+    clip: rect(57px, 9999px, 109px, 0);
   }
   35% {
-    transform: rotate(30deg);
-    clip: rect(64px, 9999px, 87px, 0);
+    transform: rotate(105deg);
+    clip: rect(15px, 9999px, 249px, 0);
   }
   40% {
-    transform: rotate(79deg);
-    clip: rect(40px, 9999px, 276px, 0);
+    transform: rotate(125deg);
+    clip: rect(84px, 9999px, 159px, 0);
   }
   45% {
-    transform: rotate(110deg);
-    clip: rect(90px, 9999px, 240px, 0);
+    transform: rotate(68deg);
+    clip: rect(10px, 9999px, 329px, 0);
   }
   50% {
-    transform: rotate(105deg);
-    clip: rect(50px, 9999px, 57px, 0);
+    transform: rotate(114deg);
+    clip: rect(78px, 9999px, 331px, 0);
   }
   55% {
-    transform: rotate(56deg);
-    clip: rect(38px, 9999px, 152px, 0);
+    transform: rotate(4deg);
+    clip: rect(36px, 9999px, 323px, 0);
   }
   60% {
-    transform: rotate(160deg);
-    clip: rect(69px, 9999px, 374px, 0);
+    transform: rotate(178deg);
+    clip: rect(35px, 9999px, 196px, 0);
   }
   65% {
-    transform: rotate(81deg);
-    clip: rect(66px, 9999px, 27px, 0);
+    transform: rotate(111deg);
+    clip: rect(68px, 9999px, 331px, 0);
   }
   70% {
-    transform: rotate(84deg);
-    clip: rect(3px, 9999px, 121px, 0);
+    transform: rotate(85deg);
+    clip: rect(19px, 9999px, 83px, 0);
   }
   75% {
-    transform: rotate(75deg);
-    clip: rect(91px, 9999px, 221px, 0);
+    transform: rotate(103deg);
+    clip: rect(54px, 9999px, 132px, 0);
   }
   80% {
-    transform: rotate(162deg);
-    clip: rect(86px, 9999px, 190px, 0);
+    transform: rotate(45deg);
+    clip: rect(42px, 9999px, 232px, 0);
   }
   85% {
-    transform: rotate(62deg);
-    clip: rect(51px, 9999px, 136px, 0);
+    transform: rotate(68deg);
+    clip: rect(47px, 9999px, 156px, 0);
   }
   90% {
-    transform: rotate(36deg);
-    clip: rect(98px, 9999px, 397px, 0);
+    transform: rotate(97deg);
+    clip: rect(9px, 9999px, 276px, 0);
   }
   95% {
-    transform: rotate(165deg);
-    clip: rect(40px, 9999px, 70px, 0);
+    transform: rotate(136deg);
+    clip: rect(10px, 9999px, 229px, 0);
   }
   100% {
-    transform: rotate(179deg);
-    clip: rect(32px, 9999px, 94px, 0);
+    transform: rotate(51deg);
+    clip: rect(88px, 9999px, 400px, 0);
   }
 }
 
@@ -412,19 +414,19 @@
     transform: scale(0);
   }
   25% {
-    transform: scale(0.72, 1);
+    transform: scale(0.64286, 1);
   }
   50% {
     background: black;
-    transform: scale(0.72, 1);
+    transform: scale(0.64286, 1);
     border-radius: 0%;
   }
   75% {
-    background: none;
+    background: #555;
     transform: scale(0.9, 1);
   }
   100% {
-    background: none;
+    background: #555;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     transform: scale(1);

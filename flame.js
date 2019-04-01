@@ -19,4 +19,7 @@ $(function() {
     $("#alert-text").css({ "padding": "0", "margin": "0" });
     $("#alert-message").css({ "font-size": "", "font-weight": "" });
     $("#alert-user-message").css({ "font-size": "", "font-weight": "" });
+    $("#decoration-text-area").append($("#alert-text"));
+
+
 });
