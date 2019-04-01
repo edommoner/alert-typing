@@ -7,7 +7,7 @@ $(function() {
                 .append($("<div id='decoration-text-bak'/>"))
                 .append($("<div id='decoration-text-area'/>"))
             )
-            .append($("<div id='decoration-ring-partial'/>")
+            .append($("<div class='decoration-ring-partial'/>")
 
             )
             .append(
