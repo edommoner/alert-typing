@@ -1,17 +1,24 @@
 $(function() {
     url_common = "//cdn.jsdelivr.net/gh/edommoner/alert-typing@";
-    url_ver = "0.3.7.5/";
+    url_ver = "0.3.7.6/";
+    // url_ver = "lated/";
     url_head = url_common + url_ver;
 
-    loadCss(url_head + "flame.min.css",
-        loadCss(url_head + "alert-typing.min.css",
-            loadScript(url_head + "mgGlitch.min.js",
-                loadScript(url_head + "flame.min.js",
-                    loadScript(url_head + "alert-typing.min.js", start()))
-            )
-        )
-    );
+    loadCss(url_head + "flame.min.css", dummy());
+    loadCss(url_head + "alert-typing.min.css", dummy());
+    loadScript(url_head + "mgGlitch.min.js", dummy());
+    loadScript(url_head + "flame.min.js", dummy());
+    loadScript(url_head + "alert-typing.min.js", dummy());
+
 });
+
+$(window).on("load", function() {
+    start();
+});
+
+function dummy() {
+
+}
 
 function start() {
 
