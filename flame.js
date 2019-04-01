@@ -1,4 +1,4 @@
-$(function() {
+let flame = function() {
 
     $("#alert-text-wrap")
         .append($("<div id='decoration-wrap' class='decoration-wrap'/>")
@@ -21,4 +21,5 @@ $(function() {
     $("#alert-message").css({ "font-size": "", "font-weight": "" });
     $("#alert-user-message").css({ "font-size": "", "font-weight": "" });
     $("#decoration-text-area").append($("#alert-text"));
-});
+
+};

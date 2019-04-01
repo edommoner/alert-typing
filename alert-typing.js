@@ -1,4 +1,4 @@
-$(function() {
+let alert_typing = function() {
     let effect = $("#alert-text-wrap").attr("data-effect");
 
     let glitch_flag = false;
@@ -55,7 +55,7 @@ $(function() {
         }
     });
     typing(message_ary, glitch_flag2);
-});
+};
 
 
 async function typing(message_ary = [], glitch_flag2 = false) {
