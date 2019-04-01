@@ -5,7 +5,7 @@ $(function() {
 
     switch (effect) {
         case "glitch":
-            glitch_flag = true;
+            // glitch_flag = true;
             break;
 
         default:
