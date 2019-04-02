@@ -19,10 +19,10 @@
             )
             .append($("<div id='_decoration-text-area'/>"));
 
-        $("#alert-text").css({ "padding": "0", "margin": "0" });
+        $("#alert-text").css({ "padding": "0", "margin": "0", "display": "none" });
         $("#alert-message").css({ "font-size": "", "font-weight": "" });
         $("#alert-user-message").css({ "font-size": "", "font-weight": "" });
-        $("#_decoration-text-area").append($("#alert-text").clone().addClass("clone-alert-text").attr("id", ""));
+        $("#_decoration-text-area").append($("#alert-text").clone().addClass("clone-alert-text").attr("id", "").css("display", ""));
 
     };
 })(jQuery);
