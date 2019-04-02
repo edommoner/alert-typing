@@ -15,12 +15,12 @@ $(function() {
             url_head = url_common + url_ver + "/";
 
             load_files = [];
-            if (typeof $.fn.alert_typing !== 'function') {
+            if (typeof $.fn.alert_typing === 'undefined') {
                 load_files.push(url_head + "alert-typing.min.css");
                 load_files.push(url_head + "alert-typing.min.js");
             }
 
-            if (typeof $.fn.make_flame_tags !== 'function') {
+            if (typeof $.fn.make_flame_tags === 'undefined') {
                 load_files.push(url_head + "flame.min.css");
                 load_files.push(url_head + "flame.min.js");
             }
