@@ -67,15 +67,15 @@
 
             }
         });
-        typing(message_ary, glitch_flag2);
+        typing(message_ary, glitch_flag2, flame1_flag);
     };
 
 
-    async function typing(message_ary = [], glitch_flag2 = false) {
+    async function typing(message_ary = [], glitch_flag2 = false, flame1_flag = false) {
         let count = 0;
         let delay = 100 //1文字が表示される時間
         let duration = $("#alert-text-wrap").attr("data-duration");
-        console.log(duration);
+        // console.log(duration);
         let data_text = "";
         if (typeof duration !== "undefined" && duration.match(/^\d*$/))
             delay = duration;
@@ -102,11 +102,11 @@
         }
 
         if (glitch_flag2)
-            glitch2();
+            glitch2(flame1_flag);
 
     }
 
-    function glitch2() {
+    function glitch2(flame1_flag) {
         $("#decoration-wrap").mgGlitch({
             destroy: false,
             glitch: true,

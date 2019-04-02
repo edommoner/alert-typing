@@ -1,24 +1,35 @@
 $(function() {
+
     $("#wrap").css("display", "none");
-    url_common = "https://cdn.jsdelivr.net/gh/edommoner/alert-typing@";
-    url_ver = "0.3.7.14";
-    // url_ver = "lated/";
-    url_head = url_common + url_ver + "/";
+    $.ajax({
+        type: "get",
+        url: "https://api.github.com/repos/edommoner/alert-typing/releases",
+        data: "data",
+        dataType: "json",
+        success: function(res) {
+            // console.log(res);
 
-    load_files = [];
-    if (typeof $.fn.alert_typing !== 'function') {
-        load_files.push(url_head + "alert-typing.min.css");
-        load_files.push(url_head + "alert-typing.min.js");
-    }
+            url_common = "https://cdn.jsdelivr.net/gh/edommoner/alert-typing@";
+            url_ver = res[0].tag_name;
+            // url_ver = "lated/";
+            url_head = url_common + url_ver + "/";
 
-    if (typeof $.fn.make_flame_tags !== 'function') {
-        load_files.push(url_head + "flame.min.css");
-        load_files.push(url_head + "flame.min.js");
-    }
+            load_files = [];
+            if (typeof $.fn.alert_typing !== 'function') {
+                load_files.push(url_head + "alert-typing.min.css");
+                load_files.push(url_head + "alert-typing.min.js");
+            }
 
-    load_files.push(url_head + "mgGlitch.min.js");
-    injectFile(load_files);
-    start();
+            if (typeof $.fn.make_flame_tags !== 'function') {
+                load_files.push(url_head + "flame.min.css");
+                load_files.push(url_head + "flame.min.js");
+            }
+
+            load_files.push(url_head + "mgGlitch.min.js");
+            injectFile(load_files);
+            start();
+        }
+    });
 
 });
 
