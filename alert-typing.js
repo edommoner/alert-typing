@@ -2,6 +2,7 @@
     $.fn.alert_typing = function() {
 
         let effect = $("#alert-text-wrap").attr("data-effect");
+        let data_flame = $("#alert-text-wrap").attr("data-flame");
 
         let glitch_flag = false;
         let glitch_flag2 = false;
@@ -12,6 +13,16 @@
                 break;
             case "glitch2":
                 glitch_flag2 = true;
+                break;
+            default:
+                break;
+        }
+        let flame1_flag = false;
+        let flame2_flag = false;
+
+        switch (data_flame) {
+            case "flame1":
+                flame1_flag = true;
                 break;
             default:
                 break;
@@ -97,51 +108,51 @@
 
     function glitch2() {
         $("#decoration-wrap").mgGlitch({
-            // set 'true' to stop the plugin
             destroy: false,
-            // set 'false' to stop glitching
             glitch: true,
-            // set 'false' to stop scaling
             scale: false,
-            // set 'false' to stop glitch blending
             blend: true,
-            // select blend mode type
             blendModeType: 'hue',
-            // set min time for glitch 1 elem
             glitch1TimeMin: 200,
-            // set max time for glitch 1 elem
             glitch1TimeMax: 400,
-            // set min time for glitch 2 elem
             glitch2TimeMin: 100,
-            // set max time for glitch 2 elem
             glitch2TimeMax: 200,
             glitch1Range: 16,
             glitch2Range: 16,
         });
         $("#decoration-text-area").mgGlitch({
-            // set 'true' to stop the plugin
             destroy: false,
-            // set 'false' to stop glitching
             glitch: true,
-            // set 'false' to stop scaling
             scale: false,
-            // set 'false' to stop glitch blending
             blend: true,
-            // select blend mode type
             blendModeType: 'hue',
-            // set min time for glitch 1 elem
             glitch1TimeMin: 200,
-            // set max time for glitch 1 elem
             glitch1TimeMax: 400,
-            // set min time for glitch 2 elem
             glitch2TimeMin: 100,
-            // set max time for glitch 2 elem
             glitch2TimeMax: 200,
             glitch1Range: 16,
             glitch2Range: 16,
             basePos: true,
             zIndexStart: 8
         });
+
+        if (!flame1_flag) {
+            $("#alert-text").mgGlitch({
+                destroy: false,
+                glitch: true,
+                scale: false,
+                blend: true,
+                blendModeType: 'hue',
+                glitch1TimeMin: 200,
+                glitch1TimeMax: 400,
+                glitch2TimeMin: 100,
+                glitch2TimeMax: 200,
+                glitch1Range: 16,
+                glitch2Range: 16,
+                basePos: true,
+                zIndexStart: 8
+            });
+        }
     };
 
     function sleep(time) {

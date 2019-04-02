@@ -22,7 +22,7 @@
         $("#alert-text").css({ "padding": "0", "margin": "0" });
         $("#alert-message").css({ "font-size": "", "font-weight": "" });
         $("#alert-user-message").css({ "font-size": "", "font-weight": "" });
-        $("#_decoration-text-area").append($("#alert-text"));
+        $("#_decoration-text-area").append($("#alert-text").clone().addClass("clone-alert-text").attr("id", ""));
 
     };
 })(jQuery);
