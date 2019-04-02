@@ -12,8 +12,8 @@
                 )
                 .append(
                     $("<div id='_decoration-ring-wrap'/>")
-                    .append($("<div id='_decoration-ring1' class='_decoration-ring'/>"))
-                    .append($("<div id='_decoration-ring3' class='_decoration-ring2'/>"))
+                    .append($("<div id='_decoration-ring1' class='_decoration-ring rotate3'/>"))
+                    .append($("<div id='_decoration-ring3' class='_decoration-ring2 rotate-3'/>"))
                 )
 
             )

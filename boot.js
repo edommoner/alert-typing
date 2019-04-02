@@ -1,7 +1,8 @@
 $(function() {
     $("#wrap").css("display", "none");
+    $("body").css("background", "#0F0");
     url_common = "https://cdn.jsdelivr.net/gh/edommoner/alert-typing@";
-    url_ver = "0.3.7.11/";
+    url_ver = "0.3.7.12/";
     // url_ver = "lated/";
     url_head = url_common + url_ver;
 
