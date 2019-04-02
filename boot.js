@@ -1,6 +1,7 @@
 $(function() {
+    $("#wrap").css("display", "none");
     url_common = "https://cdn.jsdelivr.net/gh/edommoner/alert-typing@";
-    url_ver = "0.3.7.6/";
+    url_ver = "0.3.7.9/";
     // url_ver = "lated/";
     url_head = url_common + url_ver;
 
@@ -15,11 +16,23 @@ $(function() {
 
 });
 
-// $(window).on("load", function() {
-//     start();
-// });
 
-function start() {
+async function start() {
+
+    while (true) {
+
+        if (
+            typeof $.fn.make_flame_tags === 'function' &&
+            typeof $.fn.alert_typing === 'function'
+        ) {
+            break;
+
+        }
+        await sleep(200);
+    }
+
+
+    $("#wrap").css("display", "");
 
     let data_effect = $("#alert-text-wrap").attr("data-effect");
     let data_flame = $("#alert-text-wrap").attr("data-flame");
@@ -97,4 +110,11 @@ function injectFile(loadFiles) {
         }
         document.getElementsByTagName('head')[0].appendChild(tags);
     }
+}
+
+
+function sleep(time) {
+    return new Promise(function(resolve, reject) {
+        window.setTimeout(resolve, time);
+    });
 }
