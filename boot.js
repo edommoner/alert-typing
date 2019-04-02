@@ -36,20 +36,6 @@ $(function() {
 
 async function start() {
 
-    while (true) {
-
-        if (
-            typeof $.fn.make_flame_tags === 'function' &&
-            typeof $.fn.alert_typing === 'function'
-        ) {
-            break;
-
-        }
-        await sleep(200);
-    }
-
-
-    $("#wrap").css("display", "");
 
     let data_effect = $("#alert-text-wrap").attr("data-effect");
     let data_flame = $("#alert-text-wrap").attr("data-flame");
@@ -79,19 +65,38 @@ async function start() {
             break;
     }
 
-    if (flame1_flag)
+    while (true) {
+
+        if (flame1_flag) {
+            if (typeof $.fn.make_flame_tags === 'function' && typeof $.fn.alert_typing === 'function') {
+                break;
+            }
+        } else {
+            if (typeof $.fn.alert_typing === 'function') {
+                break;
+            }
+        }
+        await sleep(200);
+    }
+
+
+    $("#wrap").css("display", "");
+
+
+    if (flame1_flag) {
         $().make_flame_tags();
 
-    $("#_decoration-wrap").attr("id", "").attr("id", "decoration-wrap").removeClass("_decoration-wrap").addClass("decoration-wrap");
-    $("#_decoration-box").attr("id", "").attr("id", "decoration-box");
-    $("#_decoration-text-bak").attr("id", "").attr("id", "decoration-text-bak");
-    $("#_decoration-text-area").attr("id", "").attr("id", "decoration-text-area");
+        $("#_decoration-wrap").attr("id", "").attr("id", "decoration-wrap").removeClass("_decoration-wrap").addClass("decoration-wrap");
+        $("#_decoration-box").attr("id", "").attr("id", "decoration-box");
+        $("#_decoration-text-bak").attr("id", "").attr("id", "decoration-text-bak");
+        $("#_decoration-text-area").attr("id", "").attr("id", "decoration-text-area");
 
-    $("._decoration-ring-partial").removeClass("decoration-ring-partial").addClass("decoration-ring-partial");
+        $("._decoration-ring-partial").removeClass("decoration-ring-partial").addClass("decoration-ring-partial");
 
-    $("#_decoration-ring-wrap").attr("id", "").attr("id", "decoration-ring-wrap");
-    $("#_decoration-ring1").attr("id", "").attr("id", "decoration-ring1").removeClass("_decoration-ring").addClass("decoration-ring");
-    $("#_decoration-ring3").attr("id", "").attr("id", "decoration-ring3").removeClass("_decoration-ring2").addClass("decoration-ring2");
+        $("#_decoration-ring-wrap").attr("id", "").attr("id", "decoration-ring-wrap");
+        $("#_decoration-ring1").attr("id", "").attr("id", "decoration-ring1").removeClass("_decoration-ring").addClass("decoration-ring");
+        $("#_decoration-ring3").attr("id", "").attr("id", "decoration-ring3").removeClass("_decoration-ring2").addClass("decoration-ring2");
+    }
 
 
     $().alert_typing();
