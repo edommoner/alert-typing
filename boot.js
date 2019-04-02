@@ -1,22 +1,22 @@
 $(function() {
     $("#wrap").css("display", "none");
     url_common = "https://cdn.jsdelivr.net/gh/edommoner/alert-typing@";
-    // url_ver = "0.3.7.14/";
-    url_ver = "lated/";
-    url_head = url_common + url_ver;
+    url_ver = "0.3.7.14";
+    // url_ver = "lated/";
+    url_head = url_common + url_ver + "/";
 
     load_files = [];
     if (typeof $.fn.alert_typing !== 'function') {
-        load_files.push(url_head + "alert-typing.min.css?v=" + parseInt((new Date) / 1000));
-        load_files.push(url_head + "alert-typing.min.js?v=" + parseInt((new Date) / 1000));
+        load_files.push(url_head + "alert-typing.min.css");
+        load_files.push(url_head + "alert-typing.min.js");
     }
 
     if (typeof $.fn.make_flame_tags !== 'function') {
-        load_files.push(url_head + "flame.min.css?v=" + parseInt((new Date) / 1000));
-        load_files.push(url_head + "flame.min.js?v=" + parseInt((new Date) / 1000));
+        load_files.push(url_head + "flame.min.css");
+        load_files.push(url_head + "flame.min.js");
     }
 
-    load_files.push(url_head + "mgGlitch.min.js?v=" + parseInt((new Date) / 1000));
+    load_files.push(url_head + "mgGlitch.min.js");
     injectFile(load_files);
     start();
 
