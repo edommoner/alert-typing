@@ -65,7 +65,8 @@ async function start() {
             break;
     }
 
-    while (true) {
+    let count_timer = 0;
+    while (count_timer < 10) {
 
         if (flame1_flag) {
             if (typeof $.fn.make_flame_tags === 'function' && typeof $.fn.alert_typing === 'function') {
@@ -76,6 +77,7 @@ async function start() {
                 break;
             }
         }
+        count_timer++;
         await sleep(200);
     }
 
