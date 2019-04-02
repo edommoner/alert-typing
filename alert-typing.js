@@ -29,7 +29,7 @@
         }
 
         let variable_order_array = [];
-        $.each($("#alert-message > span"), function(index, elm) {
+        $.each($(".clone-alert-text #alert-message > span"), function(index, elm) {
 
             let token = $(elm).attr("data-token");
             let tmp_ary = [];
@@ -43,10 +43,10 @@
                 }
             });
             variable_order_array[token] = tmp_ary;
-            $("#alert-message > span[data-token=" + token + "]").empty().append("@@##" + token + "##@@");
+            $(".clone-alert-text #alert-message > span[data-token=" + token + "]").empty().append("@@##" + token + "##@@");
         });
 
-        let message_text = $("#alert-message").text();
+        let message_text = $(".clone-alert-text #alert-message").text();
         let message_text_ary = message_text.split('@@');
 
         message_ary = [];
@@ -79,7 +79,7 @@
         let data_text = "";
         if (typeof duration !== "undefined" && duration.match(/^\d*$/))
             delay = duration;
-        $("#alert-message").empty();
+        $(".clone-alert-text #alert-message").empty();
 
         await sleep(1000);
         while (true) {
@@ -92,10 +92,10 @@
 
             if (count < message_ary.length) {
                 let tmp = "<span class='cursor'>" + message_ary[count] + "</span>";
-                $("#alert-message").html(buf + tmp); //1文字だけ追加していく
+                $(".clone-alert-text #alert-message").html(buf + tmp); //1文字だけ追加していく
                 count++;
             } else {
-                $("#alert-message").html(buf); //1文字だけ追加していく
+                $(".clone-alert-text #alert-message").html(buf); //1文字だけ追加していく
                 break;
             }
             await sleep(delay);
