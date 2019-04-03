@@ -28,6 +28,9 @@
                 break;
         }
 
+        if (!flame1_flag)
+            $("#alert-text-wrap").append($("#alert-text").clone().addClass("clone-alert-text").attr("id", "").css("display", ""));
+
         let variable_order_array = [];
         $.each($(".clone-alert-text #alert-message > span"), function(index, elm) {
 
