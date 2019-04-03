@@ -56,7 +56,7 @@
             }
 
             let count_timer = 0;
-            while (count_timer < 10) {
+            while (count_timer < 20) {
 
                 if (flame1_flag) {
                     if (typeof $.fn.make_flame_tags === 'function' && typeof $.fn.alert_typing === 'function') {
