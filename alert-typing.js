@@ -140,7 +140,7 @@
         });
 
         if (!flame1_flag) {
-            $("#alert-text").mgGlitch({
+            $(".clone-alert-text").mgGlitch({
                 destroy: false,
                 glitch: true,
                 scale: false,
