@@ -18,13 +18,13 @@ $(function() {
             load_files.push(url_head + "boot.min.js");
 
             injectFile(load_files);
-            run();
+            run(url_ver);
         }
     });
 
 });
 
-async function run() {
+async function run(url_ver) {
 
     let count_timer = 0;
     while (count_timer < 10) {
@@ -35,7 +35,7 @@ async function run() {
         count_timer++;
         await sleep(200);
     }
-    $().boot();
+    $().boot(url_ver);
 }
 
 function injectFile(loadFiles) {
